@@ -86,3 +86,21 @@ grote kwetsbaarheden van draadloze netwerken is het gebruik van frauduleuze toeg
 De bedrieger kan verbindingsverzoeken ontvangen, de gegevens in het verzoek kopiëren en de gegevens doorsturen naar het geautoriseerde netwerktoegangspunt. Dit type man-in-the-middle-aanval is erg moeilijk te detecteren en kan leiden tot gestolen inloggegevens en verzonden gegevens. Om rouge-toegangspunten te voorkomen, ontwikkelde de computerindustrie wederzijdse authenticatie. Wederzijdse authenticatie, ook wel tweewegverificatie genoemd, is een proces of technologie waarbij beide entiteiten in een communicatieverbinding zich aan elkaar authenticeren. In een draadloze netwerkomgeving verifieert de client het toegangspunt en verifieert het toegangspunt de client. Met deze verbetering konden clients rouge-toegangspunten detecteren voordat ze verbinding maakten met het niet-geautoriseerde apparaat.
 
 ![Mutual Authentication](https://github.com/LennertMertens/cisco-cybersecurity/blob/master/img/C7-001.png "Mutual Authentication")
+
+
+### 3. File toegang
+
+#### Principe van Least Privilege
+Dit betekend dat je de gebruiker enkel toegang geeft tot een deel van de schijf. Door de toegang tot bronnen te beperken, voorkomt u ook dat schadelijke programma's toegang krijgen tot die bronnen als de computer van de gebruiker geïnfecteerd raakt.
+
+#### Gebruikersrechten beperken
+Als een beheerder machtigingen voor een netwerkshare voor een persoon of een groep weigert, heeft deze weigering voorrang boven eventuele andere machtigingsinstellingen.
+Nadat machtigingen voor bovenliggende mappen zijn ingesteld, nemen mappen en bestanden die in de bovenliggende map zijn gemaakt, de machtigingen van de bovenliggende map over.
+
+#### Soorten machten
+- volledige controle = Je hebt de vollige controle op deze file, je kan bewerken, lezen ,uitvoeren, enz...
+- bewerken = je kan files verwijderen,wijzen maar niet aanmaken
+- lezen en uitvoeren = je kan alleen maar zaken lezen, en programmas in deze map uitvoeren
+- lezen = Je kan enkel lezen
+- schrijven = je kan aanpassingen maken in al bestaander files, maar je kan er ook nieuwe maken, cool e ?
+
