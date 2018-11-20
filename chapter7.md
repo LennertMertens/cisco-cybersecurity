@@ -79,6 +79,8 @@ De WPA-standaard zorgde voor verschillende beveiligingsverbeteringen. Ten eerste
 
 WPA bevatte, net als zijn vorige WEP, een aantal breed erkende kwetsbaarheden. Als gevolg daarvan vond de release van de Wi-Fi Protected Access II (WPA2) -standaard in 2006 plaats. Een van de belangrijkste beveiligingsverbeteringen van WPA naar WPA2 was het verplichte gebruik van AES-algoritmen en de introductie van de Counter Cipher-modus met Block Chaining Message Authentication Code Protocol (CCM) als vervanging voor TKIP.
 
-#### Kwetsbaarheiden
+#### Mutual Authentication
 grote kwetsbaarheden van draadloze netwerken is het gebruik van frauduleuze toegangspunten
 De bedrieger kan verbindingsverzoeken ontvangen, de gegevens in het verzoek kopiëren en de gegevens doorsturen naar het geautoriseerde netwerktoegangspunt. Dit type man-in-the-middle-aanval is erg moeilijk te detecteren en kan leiden tot gestolen inloggegevens en verzonden gegevens. Om rouge-toegangspunten te voorkomen, ontwikkelde de computerindustrie wederzijdse authenticatie. Wederzijdse authenticatie, ook wel tweewegverificatie genoemd, is een proces of technologie waarbij beide entiteiten in een communicatieverbinding zich aan elkaar authenticeren. In een draadloze netwerkomgeving verifieert de client het toegangspunt en verifieert het toegangspunt de client. Met deze verbetering konden clients rouge-toegangspunten detecteren voordat ze verbinding maakten met het niet-geautoriseerde apparaat.
+
+![Mutual Authentication](../img/C7_001.png "Mutual Authentication")
