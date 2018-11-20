@@ -127,3 +127,48 @@ Dit zijn enkele overwegingen voor gegevensback-ups:
 - Opslag - Voor extra beveiliging transporteert u back-ups naar een goedgekeurde offsite opslaglocatie op een dagelijkse, wekelijkse of maandelijkse rotatie, zoals vereist door het beveiligingsbeleid.
 - Beveiliging - Bescherm back-ups met wachtwoorden. De operator voert vervolgens het wachtwoord in voordat de gegevens op de back-upmedia worden hersteld.
 - Validatie - Valideer altijd back-ups om de integriteit van de gegevens te waarborgen.
+
+### 4. Inhoudscontrole en blokkering
+
+Contentbeheersoftware kan sites blokkeren die bepaalde soorten materiaal bevatten, zoals pornografie of controversiële religieuze
+Een beheerder kan de volgende typen filters implementeren:
+
+- Browsergebaseerde filters via een externe browserextensie
+- E-mailfilters via een client- of servergebaseerd filter
+- Filters aan de clientzijde geïnstalleerd op een specifieke computer
+- Op router gebaseerde contentfilters die voorkomen dat verkeer het netwerk binnendringt
+- Op apparaten gebaseerde contentfiltering vergelijkbaar met op router gebaseerd
+- Op cloud gebaseerde contentfiltering
+
+Zoekmachines zoals Google bieden de mogelijkheid een veiligheidsfilter in te schakelen om ongepaste links uit de zoekresultaten uit te sluiten.
+
+
+#### Disk Cloning
+
+Schijf klonen kopieert de inhoud van de harde schijf van de computer naar een afbeeldingbestand. Dit zorgt ervoor dat je als je computer zou kapot gaan het gewoon kan brengen naar de staat wanneer de afbeelding is genomen!
+
+#### Deep Freeze
+Deep Freeze bevriest de harde schijf partitie. Wanneer een gebruiker het systeem opnieuw opstart, keert het systeem terug naar de bevroren configuratie.
+Als de beheerder de configuratie van het systeem moet wijzigen, moet ze eerst de beschermde partitie "ontdooien" door Deep Freeze uit te schakelen.
+
+### 5. fysieke bescherming
+
+#### hardware
+- Gebruik kabelsloten met apparatuur
+- Houd telecommunicatiekamers op slot.
+- Gebruik veiligheidskooien rond apparatuur.
+- Veel draagbare apparaten en dure computermonitoren hebben een speciale beveiligingssleuf voor stalen beugels die is ingebouwd om te gebruiken in combinatie met kabelsloten.
+
+#### uitlog klokken
+
+Een medewerker staat op en verlaat zijn computer om een pauze te nemen. Als de medewerker geen actie onderneemt om zijn werkstation te beveiligen, is alle informatie over dat systeem kwetsbaar voor een ongeautoriseerde gebruiker. Een organisatie kan de volgende maatregelen nemen om ongeoorloofde toegang te voorkomen:
+
+##### Idle Time-out en schermvergrendeling
+
+De beste beveiligingsmethode om een niet-actieve timer te configureren die de gebruiker automatisch uitlogt en het scherm vergrendelt na een bepaalde periode.
+
+##### Aanmeldtijden
+
+Hierbij kunnen medewerkers op bepaalde uren willen laten inloggen, bijvoorbeeld van 07.00 tot 18.00 uur. Het systeem blokkeert aanmeldingen tijdens de uren die buiten de toegestane inloguren vallen.
+
+
