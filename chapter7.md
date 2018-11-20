@@ -115,4 +115,15 @@ De Windows-implementatie van EFS koppelt het rechtstreeks aan een specifiek gebr
 Een gebruiker kan er ook voor kiezen om een volledige harde schijf in Windows te versleutelen met een functie genaamd BitLocker. BitLocker maakt gebruik van Trusted Platform Module (TPM) inschakelen in het BIOS. De TPM is een gespecialiseerde chip die op het moederbord is geïnstalleerd. De TPM slaat informatie op die specifiek is voor het hostsysteem, zoals coderingssleutels, digitale certificaten en wachtwoorden.
 
 ##### BitLocker To Go
-BitLocker To Go codeert verwisselbare stations. BitLocker To Go gebruikt geen TPM-chip,
+BitLocker To Go codeert verwisselbare stations. BitLocker To Go gebruikt geen TPM-chip.
+
+#### System en Data Backups
+
+Gegevensback-ups worden meestal offsite opgeslagen om de back-upmedia te beschermen als er iets met de hoofdfaciliteit gebeurt.
+
+Dit zijn enkele overwegingen voor gegevensback-ups:
+
+- Frequentie - Back-ups kunnen lang duren. Soms is het eenvoudiger om maandelijks of wekelijks een volledige back-up te maken en maakt u dan vaak gedeeltelijke back-ups van alle gegevens die zijn gewijzigd sinds de laatste volledige back-up. Het hebben van veel gedeeltelijke back-ups verhoogt echter de hoeveelheid tijd die nodig is om de gegevens te herstellen.
+- Opslag - Voor extra beveiliging transporteert u back-ups naar een goedgekeurde offsite opslaglocatie op een dagelijkse, wekelijkse of maandelijkse rotatie, zoals vereist door het beveiligingsbeleid.
+- Beveiliging - Bescherm back-ups met wachtwoorden. De operator voert vervolgens het wachtwoord in voordat de gegevens op de back-upmedia worden hersteld.
+- Validatie - Valideer altijd back-ups om de integriteit van de gegevens te waarborgen.
