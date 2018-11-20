@@ -62,3 +62,23 @@ HIDS (host intrusion detection system ) controleert
 - bewaakt wel het besturingssysteem en kritieke systeemprocessen die specifiek zijn voor die host.
 
 ### Beveiliging in commincatie
+Bij verbinding met het lokale netwerk en het delen van bestanden blijft de communicatie tussen computers binnen dat netwerk.
+Om te communiceren en bronnen te delen via een netwerk dat niet beveiligd is, gebruiken gebruikers een Virtual Private Network (VPN).
+Een VPN is een privaat netwerk dat externe sites of gebruikers samen verbindt via een openbaar netwerk, zoals internet.
+Wanneer verbonden met het zakelijke privé-netwerk, worden gebruikers een deel van dat netwerk en hebben toegang tot alle services en bronnen alsof ze fysiek verbonden zijn met het bedrijfs-LAN.
+Externe-toegangsgebruikers moeten een VPN-client op hun computers hebben geïnstalleerd om een veilige verbinding met het privé-bedrijfsnetwerk te vormen. De VPN-clientsoftware codeert gegevens voordat deze via internet naar de VPN-gateway op het bedrijfsnetwerk worden verzonden. VPN-gateways maken, beheren en besturen VPN-verbindingen, ook wel bekend als VPN-tunnels.
+
+#### WEP
+Wired Equivalent Privacy (WEP) is een van de eerste en meest gebruikte Wi-Fi-beveiligingsstandaarden. De WEP-standaard biedt verificatie- en codebeveiliging.
+ De WEP-standaard werd een Wi-Fi-beveiligingsstandaard in 1999, toen draadloze communicatie net aansloeg. Ondanks herzieningen van de standaard en een toegenomen sleutelgrootte, ondervond WEP talrijke beveiligingszwakheden. Cybercriminelen kunnen WEP-wachtwoorden binnen enkele minuten kraken met behulp van vrij beschikbare software. Ondanks verbeteringen blijft WEP zeer kwetsbaar en moeten gebruikers systemen upgraden die afhankelijk zijn van WEP.
+ 
+ #### WPA/WPA2
+ Wi-Fi Protected Access (WPA) was het antwoord van de computerindustrie op de zwakte van de WEP-standaard. De meest voorkomende WPA-configuratie is WPA-PSK (Pre-Shared Key). De sleutels die worden gebruikt door WPA zijn 256-bits, een aanzienlijke toename ten opzichte van de 64-bits en 128-bits sleutels die worden gebruikt in het WEP-systeem.
+
+De WPA-standaard zorgde voor verschillende beveiligingsverbeteringen. Ten eerste leverde WPA berichtintegriteitscontroles (MIC) die konden detecteren of een aanvaller gegevens had vastgelegd en gewijzigd die werden doorgegeven tussen het draadloze toegangspunt en een draadloze client. Een andere belangrijke beveiligingsverbetering was het Temporal Key Integrity Protocol (TKIP). De TKIP-standaard bood de mogelijkheid om coderingssleutels beter te verwerken, te beschermen en te wijzigen. Advanced Encryption Standard (AES) vervangt TKIP voor een nog beter beheer van sleutels en encryptie.
+
+WPA bevatte, net als zijn vorige WEP, een aantal breed erkende kwetsbaarheden. Als gevolg daarvan vond de release van de Wi-Fi Protected Access II (WPA2) -standaard in 2006 plaats. Een van de belangrijkste beveiligingsverbeteringen van WPA naar WPA2 was het verplichte gebruik van AES-algoritmen en de introductie van de Counter Cipher-modus met Block Chaining Message Authentication Code Protocol (CCM) als vervanging voor TKIP.
+
+#### Kwetsbaarheiden
+grote kwetsbaarheden van draadloze netwerken is het gebruik van frauduleuze toegangspunten
+De bedrieger kan verbindingsverzoeken ontvangen, de gegevens in het verzoek kopiëren en de gegevens doorsturen naar het geautoriseerde netwerktoegangspunt. Dit type man-in-the-middle-aanval is erg moeilijk te detecteren en kan leiden tot gestolen inloggegevens en verzonden gegevens. Om rouge-toegangspunten te voorkomen, ontwikkelde de computerindustrie wederzijdse authenticatie. Wederzijdse authenticatie, ook wel tweewegverificatie genoemd, is een proces of technologie waarbij beide entiteiten in een communicatieverbinding zich aan elkaar authenticeren. In een draadloze netwerkomgeving verifieert de client het toegangspunt en verifieert het toegangspunt de client. Met deze verbetering konden clients rouge-toegangspunten detecteren voordat ze verbinding maakten met het niet-geautoriseerde apparaat.
