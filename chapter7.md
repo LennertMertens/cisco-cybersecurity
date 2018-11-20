@@ -87,20 +87,32 @@ De bedrieger kan verbindingsverzoeken ontvangen, de gegevens in het verzoek kopi
 
 ![Mutual Authentication](https://github.com/LennertMertens/cisco-cybersecurity/blob/master/img/C7-001.png "Mutual Authentication")
 
-
 ### 3. File toegang
+#### Machten
 
-#### Principe van Least Privilege
+##### Principe van Least Privilege
 Dit betekend dat je de gebruiker enkel toegang geeft tot een deel van de schijf. Door de toegang tot bronnen te beperken, voorkomt u ook dat schadelijke programma's toegang krijgen tot die bronnen als de computer van de gebruiker geïnfecteerd raakt.
 
-#### Gebruikersrechten beperken
+##### Gebruikersrechten beperken
 Als een beheerder machtigingen voor een netwerkshare voor een persoon of een groep weigert, heeft deze weigering voorrang boven eventuele andere machtigingsinstellingen.
 Nadat machtigingen voor bovenliggende mappen zijn ingesteld, nemen mappen en bestanden die in de bovenliggende map zijn gemaakt, de machtigingen van de bovenliggende map over.
 
-#### Soorten machten
+##### Soorten machten
 - volledige controle = Je hebt de vollige controle op deze file, je kan bewerken, lezen ,uitvoeren, enz...
 - bewerken = je kan files verwijderen,wijzen maar niet aanmaken
 - lezen en uitvoeren = je kan alleen maar zaken lezen, en programmas in deze map uitvoeren
 - lezen = Je kan enkel lezen
 - schrijven = je kan aanpassingen maken in al bestaander files, maar je kan er ook nieuwe maken, cool e ?
 
+#### File Encryption
+
+Encryptie is een hulpmiddel dat wordt gebruikt om gegevens te beschermen. Encryptie transformeert gegevens met behulp van een ingewikkeld algoritme om het onleesbaar te maken.
+
+##### Encrypting File System (EFS)
+De Windows-implementatie van EFS koppelt het rechtstreeks aan een specifiek gebruikersaccount. Alleen de gebruiker die de gegevens versleuteld heeft, heeft toegang tot de gecodeerde bestanden of mappen.
+
+##### BitLocker
+Een gebruiker kan er ook voor kiezen om een volledige harde schijf in Windows te versleutelen met een functie genaamd BitLocker. BitLocker maakt gebruik van Trusted Platform Module (TPM) inschakelen in het BIOS. De TPM is een gespecialiseerde chip die op het moederbord is geïnstalleerd. De TPM slaat informatie op die specifiek is voor het hostsysteem, zoals coderingssleutels, digitale certificaten en wachtwoorden.
+
+##### BitLocker To Go
+BitLocker To Go codeert verwisselbare stations. BitLocker To Go gebruikt geen TPM-chip,
