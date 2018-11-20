@@ -191,6 +191,87 @@ Het installatieproces van Windows schakelt standaard geen extern bureaublad in. 
 Secure Shell (SSH) is een protocol dat zorgt voor een veilige (versleutelde) beheerverbinding met een apparaat op afstand. SSH zou Telnet moeten vervangen voor beheerverbindingen. Telnet is een ouder protocol dat onbeveiligde gewone tekstoverdracht gebruikt van zowel de aanmeldingsverificatie (gebruikersnaam en wachtwoord) als de gegevens die worden verzonden tussen de communicerende apparaten. SSH biedt beveiliging voor externe verbindingen door sterke codering te bieden wanneer een apparaat authenticeert (gebruikersnaam en wachtwoord) en om gegevens te verzenden tussen de communicerende apparaten. SSH gebruikt TCP-poort 22. Telnet gebruikt TCP-poort 23.
 Secure Copy (SCP) brengt veilig computerbestanden over tussen twee externe systemen. SCP gebruikt SSH voor gegevensoverdracht (inclusief het authenticatie-element), dus SCP zorgt voor de authenticiteit en vertrouwelijkheid van de gegevens die onderweg zijn.
 
+### 2. Administratieve maatregelen
+
+#### Poorten en services beveiligen
 
 Cybercriminelen maken misbruik van de services die op een systeem worden uitgevoerd, omdat ze weten dat de meeste apparaten meer services of programma's uitvoeren dan ze nodig hebben.
 Een eenvoudige methode die veel beheerders gebruiken om het netwerk te beveiligen tegen ongeautoriseerde toegang, is door alle ongebruikte poorten op een switch uit te schakelen. Daarbij moet een beheerder moet elke service bekijken om de noodzaak ervan te verifiëren en het risico ervan te evalueren. Verwijder alle onnodige services.
+
+#### Bevoorrechte accounts
+Cybercriminelen gebruiken bevoorrechte accounts omdat ze de krachtigste accounts in de organisatie zijn. Privileged accounts hebben de inloggegevens om toegang tot systemen te krijgen en ze bieden een verhoogde, onbeperkte toegang.
+
+De organisatie moet de volgende aanbevolen procedures volgen voor het beveiligen van vertrouwelijke accounts:
+
+- Identificeer en verminder het aantal geprivilegieerde accounts
+- Dwing het principe van het minste privilege af
+- Stel een proces in voor het herroepen van rechten wanneer werknemers hun baan verlaten of van baan veranderen
+- Elimineer gedeelde accounts met wachtwoorden die niet verlopen
+- Veilige wachtwoordopslag
+- Elimineer gedeelde referenties voor meerdere beheerders
+- Wijzig automatisch privileged account wachtwoorden om de 30 of 60 dagen
+- Registreer geprivilegieerde sessies
+- Implementeer een proces om ingesloten wachtwoorden voor scripts en serviceaccounts te wijzigen
+- Log alle gebruikersactiviteiten in
+- Genereer meldingen voor ongewoon gedrag
+- Schakel inactieve bevoorrechte accounts uit
+- Gebruik multi-factor authenticatie voor alle administratieve toegang
+- Implementeer een gateway tussen de eindgebruiker en gevoelige assets om de netwerkblootstelling aan malware te beperken
+- Het vergrendelen van geprivilegieerde accounts is essentieel voor de beveiliging van de organisatie. Het beveiligen van deze accounts moet een continu proces zijn. Een organisatie moet dit proces evalueren om de vereiste aanpassingen aan te brengen om de beveiliging te verbeteren.
+
+Soorten van Bevoorrechte accounts moeten nog worden aangevult
+
+#### Logboeken en waarschuwingen inschakelen
+
+Een logboek registreert alle gebeurtenissen terwijl ze zich voordoen.
+In een controlelogboek worden bijvoorbeeld pogingen voor gebruikersverificatie bijgehouden en een toegangslogboek biedt alle details over aanvragen voor specifieke bestanden op een systeem.
+
+##### Logboeken van besturingssystemen
+Logboeken van besturingssystemen registreren gebeurtenissen die optreden vanwege operationele acties die door het besturingssysteem worden uitgevoerd.vb
+- Clientaanvragen en serverreacties zoals succesvolle gebruikersauthenticaties
+- Gebruiksinformatie die het aantal en de omvang van transacties in een bepaalde periode bevat
+
+##### Beveiligingsapplicaties
+Organisaties gebruiken op het netwerk of op het systeem gebaseerde beveiligingssoftware om schadelijke activiteiten te detecteren.
+
+### 3. Physical Protection of Servers
+
+#### Power
+
+Een continue toevoer van elektrische stroom is van cruciaal belang in de enorme faciliteiten voor server- en gegevensopslag van vandaag. Hier zijn enkele algemene regels voor het bouwen van effectieve elektrische voedingssystemen:
+
+- Datacenters moeten op een andere stroomvoorziening van de rest van het gebouw staan
+Redundante voedingsbronnen: twee of meer feeds afkomstig van twee of meer elektrische onderstations
+- Vermogen conditionering
+- Back-upvermogenssystemen zijn vaak vereist
+- UPS moet beschikbaar zijn om systemen fraai af te sluiten
+Een organisatie moet zichzelf beschermen tegen verschillende problemen bij het ontwerpen van haar elektrische voedingssystemen.
+
+##### Power Excess
+
+Spike: kortstondige hoogspanning
+Overspanning: langdurige hoogspanning
+
+##### Stroomuitval
+
+Storing: kortstondig vermogensverlies
+Blackout: volledig vermogensverlies
+
+##### Vermogensbeperking
+
+Sag / dip: tijdelijke lage spanning
+Brownout: langdurige lage spanning
+Inschakelstroom: initiële stroomstoot
+
+####  Verwarming, ventilatie en airconditioning
+
+HVAC-systemen (Heating, Ventilation, and Air Conditioning ) regelen de omgeving (temperatuur, vochtigheid, luchtstroom en luchtfiltering) en moeten worden gepland en gebruikt in combinatie met andere datacentercomponenten, zoals computerhardware, bekabeling, gegevensopslag, brandbeveiliging, fysieke beveiligingssystemen en stroomvoorziening.
+Commerciële HVAC-systemen en andere gebouwbeheersystemen maken nu verbinding met internet voor bewaking en besturing op afstand. Recente gebeurtenissen hebben aangetoond dat dergelijke systemen (vaak "slimme systemen" genoemd) ook grote veiligheidsimplicaties met zich meebrengen.
+Een van de risico's verbonden aan slimme systemen is dat de personen die toegang hebben tot en het systeem beheren werken voor een aannemer of een externe leverancier
+
+#### Hardware Monitoring
+
+Hardware-monitoring is vaak te vinden in grote server farms. Een server farm is een faciliteit die honderden of duizenden servers huisvest voor bedrijven. Google heeft over de hele wereld veel server farms om optimale services te bieden.
+Hardwarebewakingssystemen worden gebruikt om de gezondheid van deze systemen te bewaken en om downtime van servers en applicaties te minimaliseren. Moderne hardwarebewakingssystemen maken gebruik van USB- en netwerkpoorten om de conditie van de CPU-temperatuur, voedingsstatus, ventilatorsnelheid en temperatuur, geheugenstatus, schijfruimte en netwerkkaartstatus te verzenden.
+
+
