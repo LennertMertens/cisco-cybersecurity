@@ -3,7 +3,7 @@ Cisco Cybersecurity summary's
 
 In deze repository komen alle samenvattingen van de hoofdstukken cybersecurity. 
 
-Gelieve de samenvattingen UITGEBREID aan te vullen zodat ze voor iedereen zeer goed te begrijpen zijn en hanteerbaar zijn als studiemateriaal. Dit aanmaken kost mogelijks enige tijd maar loont wel de moeite. De samenvattingen ook schrijven in het Nederlands!
+Gelieve de samenvattingen UITGEBREID aan te vullen zodat ze voor iedereen zeer goed te begrijpen zijn en hanteerbaar zijn als studiemateriaal. Dit aanmaken kost mogelijks enige tijd maar loont wel de moeite. De samenvattingen ook schrijven in het Nederlands of Engels!
 
 DEADLINE: 28/11
 
