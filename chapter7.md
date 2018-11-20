@@ -171,4 +171,26 @@ De beste beveiligingsmethode om een niet-actieve timer te configureren die de ge
 
 Hierbij kunnen medewerkers op bepaalde uren willen laten inloggen, bijvoorbeeld van 07.00 tot 18.00 uur. Het systeem blokkeert aanmeldingen tijdens de uren die buiten de toegestane inloguren vallen.
 
+#### Voorraad en RFID-tags
+Radiofrequentie-identificatie (RFID) maakt gebruik van radiogolven om objecten te identificeren en te volgen. RFID-inventarissystemen gebruiken tags die zijn gekoppeld aan alle items die een organisatie wil volgen. De tags bevatten een geïntegreerd circuit dat verbinding maakt met een antenne. RFID-tags zijn klein en vereisen zeer weinig stroom, dus ze hebben geen batterij nodig om informatie op te slaan om met een lezer uit te wisselen. RFID kan het bijhouden van activa helpen automatiseren of elektronische apparaten draadloos vergrendelen, ontgrendelen of configureren.
 
+
+## Verharding van het server
+
+### 1. Secure Remote Access
+
+#### Remote desktop
+
+Externe toegang verwijst naar elke combinatie van hardware en software waarmee gebruikers op afstand toegang hebben tot een lokaal intern netwerk.
+
+Met het Windows-besturingssysteem kunnen technici Remote Desktop en Hulp op afstand gebruiken om computers te repareren en te upgraden.
+Het installatieproces van Windows schakelt standaard geen extern bureaublad in. Als u deze functie inschakelt, wordt poort 3389 geopend en dit kan leiden tot een beveiligingslek als een gebruiker deze service niet nodig heeft.
+
+#### Telnet, SSH, and SCP
+
+Secure Shell (SSH) is een protocol dat zorgt voor een veilige (versleutelde) beheerverbinding met een apparaat op afstand. SSH zou Telnet moeten vervangen voor beheerverbindingen. Telnet is een ouder protocol dat onbeveiligde gewone tekstoverdracht gebruikt van zowel de aanmeldingsverificatie (gebruikersnaam en wachtwoord) als de gegevens die worden verzonden tussen de communicerende apparaten. SSH biedt beveiliging voor externe verbindingen door sterke codering te bieden wanneer een apparaat authenticeert (gebruikersnaam en wachtwoord) en om gegevens te verzenden tussen de communicerende apparaten. SSH gebruikt TCP-poort 22. Telnet gebruikt TCP-poort 23.
+Secure Copy (SCP) brengt veilig computerbestanden over tussen twee externe systemen. SCP gebruikt SSH voor gegevensoverdracht (inclusief het authenticatie-element), dus SCP zorgt voor de authenticiteit en vertrouwelijkheid van de gegevens die onderweg zijn.
+
+
+Cybercriminelen maken misbruik van de services die op een systeem worden uitgevoerd, omdat ze weten dat de meeste apparaten meer services of programma's uitvoeren dan ze nodig hebben.
+Een eenvoudige methode die veel beheerders gebruiken om het netwerk te beveiligen tegen ongeautoriseerde toegang, is door alle ongebruikte poorten op een switch uit te schakelen. Daarbij moet een beheerder moet elke service bekijken om de noodzaak ervan te verifiëren en het risico ervan te evalueren. Verwijder alle onnodige services.
