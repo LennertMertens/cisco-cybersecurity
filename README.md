@@ -9,16 +9,16 @@ DEADLINE: 28/11
 
 ## Taakverdeling
 
-| Hoofdstuk | Naam    |
-| :-------- | :------ |
-| H1        | Kwinten |
-| H2        | Lennert |
-| H3        | Thomas  |
-| H4        | Sam     |
-| H5        | Cedric  |
-| H6        | Jens    |
-| H7        | Robin   |
-| H8        | ?       |
+| Hoofdstuk | Naam    | Done? |
+| :-------- | :------ | :---: |
+| H1        | Kwinten | []    |
+| H2        | Lennert | [x]   |
+| H3        | Thomas  | []    |
+| H4        | Sam     | []    |
+| H5        | Cedric  | []    |
+| H6        | Jens    | []    |
+| H7        | Robin   | []    |
+| H8        | ?       | []    |
 
 ## Layout
 Om eendracht te voorzien doorheen deze repository is het misschien handig te werken volgens een vaste layout als volgt
