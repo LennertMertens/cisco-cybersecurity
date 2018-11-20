@@ -68,7 +68,7 @@ Een VPN is een privaat netwerk dat externe sites of gebruikers samen verbindt vi
 Wanneer verbonden met het zakelijke privé-netwerk, worden gebruikers een deel van dat netwerk en hebben toegang tot alle services en bronnen alsof ze fysiek verbonden zijn met het bedrijfs-LAN.
 Externe-toegangsgebruikers moeten een VPN-client op hun computers hebben geïnstalleerd om een veilige verbinding met het privé-bedrijfsnetwerk te vormen. De VPN-clientsoftware codeert gegevens voordat deze via internet naar de VPN-gateway op het bedrijfsnetwerk worden verzonden. VPN-gateways maken, beheren en besturen VPN-verbindingen, ook wel bekend als VPN-tunnels.
 
-#### 2. internet beveiliging
+### 2. internet beveiliging
 
 ##### WEP
 Wired Equivalent Privacy (WEP) is een van de eerste en meest gebruikte Wi-Fi-beveiligingsstandaarden. De WEP-standaard biedt verificatie- en codebeveiliging.
