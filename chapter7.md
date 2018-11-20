@@ -26,3 +26,39 @@ Het is belangrijk om computers en mobiele apparaten te beschermen met behulp van
 - Bescherming tegen spyware - Programmeer scans op keyloggers en andere spyware.
 - Vertrouwde / niet-vertrouwde bronnen - Programma waarschuwt de gebruiker over onveilige programma's die proberen websites te installeren of onveilig te maken voordat een gebruiker ze bezoekt.
 Het kan verschillende programma's en meerdere scans vereisen om alle kwaadwillende software volledig te verwijderen. Voer slechts één malwarebeschermingsprogramma tegelijk uit.
+
+### Patch Management
+
+Patches zijn code-updates die fabrikanten aanbieden om te voorkomen dat een pas ontdekt virus of worm een succesvolle aanval uitvoert. Van tijd tot tijd combineren fabrikanten patches en upgrades in een uitgebreide updateprogramma genaamd een servicepack.
+Sommige organisaties willen misschien een patch testen voordat deze in de hele organisatie wordt geïmplementeerd. De organisatie zou een service gebruiken om patches lokaal te beheren in plaats van de online updateservice van de leverancier te gebruiken. De voordelen van het gebruik van een geautomatiseerde update-patchservice omvatten het volgende:
+
+Beheerders kunnen updates goedkeuren of weigeren
+Beheerders kunnen de update van systemen forceren voor een specifieke datum
+Beheerders kunnen rapporten opvragen over de update die elk systeem nodig heeft
+Elke computer hoeft geen verbinding te maken met de service van de leverancier om patches te downloaden; een systeem krijgt de update van een lokale server
+Gebruikers kunnen updates niet uitschakelen of omzeilen
+Een geautomatiseerde patchservice biedt beheerders een meer gecontroleerde instelling.
+De voordelen hiervan zijn
+- Beheerders kunnen updates goedkeuren of weigeren
+- Beheerders kunnen de update van systemen forceren voor een specifieke datum
+- Beheerders kunnen rapporten opvragen over de update die elk systeem nodig heeft
+- Elke computer hoeft geen verbinding te maken met de service van de leverancier om patches te downloaden; een systeem krijgt de update van een lokale server
+- Gebruikers kunnen updates niet uitschakelen of omzeilen
+
+### Firewalls en inbraakdetectiesystemen (Intrusion Detection Systems) voor het host systeeem
+
+#### firewalls
+
+Een softwarefirewall is een programma dat op een computer wordt uitgevoerd om verkeer tussen de computer en andere verbonden computers toe te staan of te weigeren. De softwarefirewall past een reeks regels toe op gegevenstransmissies door inspectie en filtering van datapakketten
+
+#### Inbraakdetectiesystemen
+
+HIDS (host intrusion detection system ) controleert
+- systeemaanroepen en bestandssysteemtoegang om ervoor te zorgen dat de verzoeken niet het resultaat zijn van kwaadwillige activiteiten.
+- Het kan ook de instellingen van het systeemregister controleren.
+- Het register onderhoudt configuratie-informatie over de computer.
+- Het kan ook van invloed zijn op de systeemprestaties.
+- Kan geen netwerkverkeer monitoren dat het hostsysteem niet bereikt
+- bewaakt wel het besturingssysteem en kritieke systeemprocessen die specifiek zijn voor die host.
+
+### Beveiliging in commincatie
