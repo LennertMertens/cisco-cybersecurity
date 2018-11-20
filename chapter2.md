@@ -124,6 +124,7 @@ Methods to ensure data integrity: hashing, validation checks, data consistency c
 </dl>
 
 **High availability design principles:**
+
 | Principle | Solutions |
 | :-------- | :-------- |
 | Eliminate single points of failure | hot standby devices, redundancy                        | 
