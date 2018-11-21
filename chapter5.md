@@ -1,4 +1,4 @@
-#Chapter 5: The art of Ensuring Integrity
+# Chapter 5: The art of Ensuring Integrity
 
 **What is Integrity?**
 - Ensures that data remains unchanged and trustworthy by anyone or anything over its entire life cycle.
