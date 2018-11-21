@@ -1,0 +1,21 @@
+#Chapter 5: The art of Ensuring Integrity
+
+**What is Integrity?**
+- Ensures that data remains unchanged and trustworthy by anyone or anything over its entire life cycle.
+- Critical component to the design, implementation and usage of any system that stores, processes, or transmits data.
+
+_Having a well-controlled and well-defined data integrity system increases the stability, performance, and maintainability of a database system._
+
+##5.1.1 Hashing Algorithms
+##5.1.1.1 What is hashing?
+- Hashing is a tool that ensures data integrity by taking binary data (the message) and producing a fixed-length representation called the hash value or message digest.
+- Hash functions replace clear text password or encryption keys because hash functions are one-way functions.
+- Every time the data is changed or altered, the hash value also changes. Because of this, cryptographic hash values are often called digital fingerprints. They can detect duplicate data files, file version changes, and similar applications.
+
+##5.1.1.2 Hashing Properties
+Hashing is a one-way mathematical function that is relatively easy to compute, but significantly harder to reverse. (Think about grinding coffee beans; impossible to get back to the beans)
+**Cryptographic hash function**
+- The input can be any length.
+- The output has a fixed length.
+- The hash function is one way and is not reversible.
+- Two different input values will almost never result in the same hash values.
