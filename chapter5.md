@@ -187,13 +187,101 @@ There is an offline Root CA and an online subordinate CA. The reason for the two
 !["Activity 3"](https://github.com/LennertMertens/cisco-cybersecurity/blob/master/img/C5-003.png "Activity 3")
 
 
-
 ## 5.4 Database Integrity Enforcement
+### 5.4.1 Database Integrity
+### 5.4.1.1 Data Integrity
+
+Data integrity refers to the accuracy, consistency, and reliability of data stored in a database.
+
+_The four data integrity rules or constraints are as follows:_
+
+- **Entity Integrity:** All rows must have a unique identifier called a Primary Key (Figure 1).
+
+- **Domain Integrity:** All data stored in a column must follow the same format and definition (Figure 2).
+
+- **Referential Integrity:** Table relationships must remain consistent. Therefore, a user cannot delete a record which is related to another one (Figure 3).
+
+- **User-defined Integrity:** A set of rules defined by a user which does not belong to one of the other categories. For example, a customer places a new order. The user first checks to see if this is a new customer. If it is, the user adds the new customer to the customers table.
+
+### 5.4.1.2 Data Entry Controls
+
+Data entry involves inputting data to a system. A set of controls ensures that users enter the correct data.
+
+- Have dropdowns in your application (like Country, ...)
+- Data Field Validation; set up rules
+    - Mandatory input
+    - Input Masks
+    - Positive amounts
+    - Data Ranges
+    - Mandatory second approval (for big transactions f.e.)
+    - Maximum Record Modification Trigger
+    - Unusual Activity Trigger
+
+### 5.4.2 Database Validation
+### 5.4.2.1 Validation Rules
+
+A validation rule checks that data falls within the parameters defined by the database designer. A validation rule helps to ensure the completeness, accuracy and consistency of data. The criteria used in a validation rule include the following:
+- Size
+- Format
+- Consistency
+- Range
+- Check Digit
+
+### 5.4.2.2 Data Type Validation
+
+Data type validation is the simplest data validation and verifies that a user entering data is consistent with the type of characters expected. 
+_For example, a phone number would not contain alpha characters._
+
+### 5.4.2.3 Input Validation
+
+One of the most vulnerable aspects of database integrity management is controlling the data input process. Many well-known attacks run against a database and insert malformed data. (SQL Injection)
+
+### 5.4.2.4 Anomaly Verification
+
+**Anomaly detection** refers to identifying patterns in data that do not conform to expected behavior.
+Anomaly verification requires verification data requests or modifications when a system detects unusual or surprising patterns.
+
+_Example: credit card with two transactions in vastly different request locations in a short time._
+
+### 5.4.2.5 Activity - Identify the Database Integrity Controls
+
+**_GAAP, ZO EASY_**
+
+!["Activity 4"](https://github.com/LennertMertens/cisco-cybersecurity/blob/master/img/C5-004.png "Activity 4")
+
+
+### 5.4.3 Database Integrity Requirements
+### 5.4.3.1 Entity Integrity
+
+ In order to maintain the integrity of the database filing system, users must follow certain rules. Entity integrity is an integrity rule, which states that every table must have a primary key and that the column or columns chosen to be the primary key must be unique and not NULL.
+
+ **It enables proper organization of data**
+
+### 5.4.3.2 Referential Integrity
+
+Relationships. The basis of referential integrity is foreign keys. A foreign key in one table references a primary key in a second table. 
+
+### 5.4.3.3 Domain Integrity
+
+Domain integrity ensures that all the data items in a column fall within a defined set of valid values.
+It can be as simple as choosing the correct data type, length and or format for a column.
+
+**Example:** 
+E-mailaddress:
+- Must have no more than 128 chars
+- Format xxx@xxx.xxx
+- Entered or modified by customer only
+- validated by activation mail
+
+### 5.4.3.4 Lab - Remote Access
+
+DIY; Playing around with Telnet and SSH. FUN!
 
 ## 5.5 Summary
 
-
-
+Having a well-controlled and well-defined data integrity system increases the stability, performance, and maintainability of a database system.
+How can I do this then, Cedric?
+Well, read my summary of this chapter again. Any concerns, doubts, hard feelings, please give a shout.
 
 
 -- <br/>
