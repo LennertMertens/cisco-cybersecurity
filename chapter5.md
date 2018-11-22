@@ -99,7 +99,7 @@ Asymmetric cryptography is the basis for digital signatures. A public key algori
 
 Procedure:
 
-_Alice wants to send **Ismelk :heart:** an email with really important information_
+_Alice wants to send **Ismelk:heart:** an email with really important information_
 - Alice creates message with a digest of the message
 - She encrypts it with her private key, and bundles it with the public key.
 - Alice sends it to Ismelk
