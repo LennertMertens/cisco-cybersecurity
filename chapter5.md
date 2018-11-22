@@ -153,6 +153,38 @@ The CA issues digital certificates that authenticate the identity of organizatio
 ### 5.3.2 Constructing a Digital Certificate
 ### 5.3.2.1 What is Inside a Digital Certificate?
 
+_X.509 is a standard for a public key infrastructure (PKI) to manage digital certificates_
+Following pieces are inside a digital certificate:
+- Version Number
+- Serial Number
+- Certificate Algorithm Identifier
+- Issuer Name
+- Validity Period
+- Subject Name
+- Subject Public Key Information
+- Issuer Unique Identifier
+- Subject Unique Identifier
+- Extension
+- CA's Digital Signature
+
+### 5.3.2.2 The Validation Process
+
+Browsers & application perform a validation check before they trust a certificate.
+- **Certificate Discovery** validates the certification path by checking each certificate starting at the beginning with the root CA’s certificate
+- **Path Validation** selects a certificate of the issuing CA for each certificate in the chain
+- **Revocation** determines whether the certificate was revoked and why
+
+### 5.3.2.3 The Certificate Path
+
+An individual gets a certificate for a public key from a commercial CA. The certificate belongs to a chain of certificates called the chain of trust. The number of certificates in the chain depends on the hierarchical structure of the CA.
+
+There is an offline Root CA and an online subordinate CA. The reason for the two-tier structure is that X.509 signing allows for easier recovery in the event of a compromise. If there is an offline CA, it can sign the new online CA certificate. If there is not an offline CA, a user has to install a new root CA certificate on every client machine, phone, or tablet.
+
+!["Illustration Path"](https://github.com/LennertMertens/cisco-cybersecurity/blob/master/img/C5-002.png "Illustration Path")
+
+### 5.3.2.4 Activity - Order the steps in the Digital Certificate Process
+
+!["Activity 3"](https://github.com/LennertMertens/cisco-cybersecurity/blob/master/img/C5-003.png "Activity 3")
 
 
 
