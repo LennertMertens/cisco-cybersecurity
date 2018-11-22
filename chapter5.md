@@ -81,4 +81,4 @@ How?
 ![Solution 5.1.1.9"](https://github.com/LennertMertens/cisco-cybersecurity/blob/master/img/C5-001.png "Solution 5.1.1.9")
 
 
-<sup>Written by Cedric De Witte - For any inquiries or suggestions, please send an e-mail to info@cedricdewitte.be - Happy Studying!</sup>
+<sup>~ Written by Cedric De Witte - For any inquiries or suggestions, please send an e-mail to info@cedricdewitte.be - Happy Studying! ~</sup>
