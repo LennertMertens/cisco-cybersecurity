@@ -96,8 +96,10 @@ Non-repudiation is a way to ensure that the sender of a message or document cann
 ### 5.2.2.1 Processes of Creating a Digital Signature
 
 Asymmetric cryptography is the basis for digital signatures. A public key algorithm like RSA generates two keys: one **private** and the other public.
+
 Procedure:
-_Alice wants to send Ismelk an email with really important information_
+
+_Alice wants to send **Ismelk :heart:** an email with really important information_
 - Alice creates message with a digest of the message
 - She encrypts it with her private key, and bundles it with the public key.
 - Alice sends it to Ismelk
