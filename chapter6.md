@@ -31,6 +31,105 @@ Rnvironments that need Five Nines: Finance industry, health care facilities, pub
 
 ## 6.2 Measures to Improve Availability
 
+### Asset Management
+
+**Asset Identification**
+
+the organization needs to know all the components that can be subject to security risks, including:
+
+- every hardware system
+- every operating system
+- every hardware network device
+- every network device operating system
+- every software application
+- all firmware
+- all language runtime environment
+- all individual libraries
+
+It is best to choose an automatic solution to keep track of these assets in your organization.
+
+**Asset Classification**
+
+classify all resources of an organization in order to provide the proper handling/ treatment.
+
+1. Asset Identification categories
+   - Software Assets
+   - Physical Assets
+   - Services
+2. Asset Accountability
+   - Identify the owner for all information assets
+   - Identify the owner for al application software
+3. Classification Schema Criteria
+   - Confidentiality
+   - Value
+   - Access Rights
+   - Destruction
+4. Classification Schema implementation
+   - Adopt a uniform way of identifying information to ensure uniform protection
+
+**Asset Standardization**
+
+managing the lifecycle and inventory of technology assets. for example, The assets need to meet the guidelines of the organization if they don't it is eliminated. (effectively increasing security)
+
+**Threat Identification**
+
+`US-CERT`: United States Computer Emergency Readiness Team
+`CVE`: Common vulnerabilities and exposure
+
+make a CVE Identifier for publicly known cybersecurity vulnerabilities
+
+- CVE Identifier number
+- brief description of the security vulnerability
+- important references
+
+**Risk Analysis**
+
+the process of analyzing the dangers posed by natural and human-caused events to the assets of an organization. this has 4 goals.
+
+- Identify assets and their value
+- Identify vulnerabilities and threats
+- Quantify the probability and impact of the identified threats
+- Balance the impact of the threat against the cost of the countermeasure
+
+A quantitative analysis assigns numbers to the risk analysis process, Single Loss Expectancy (\$), Annualized Rate of Occurrence (%) and Annualized Loss Expectancy (\$)
+
+Qualitative Risk Analysis uses opinions and scenarios. a table of Severity (Rows) x Occurrence (columns), a team then ranks the results.
+
+  **Mitigation**
+
+Mitigation involves reducing the severity of the loss or the likelihood of the loss from occurring.
+
+4 common ways:
+
+- Accept the risk and periodically re-assess
+- Reduce the risk by implementing controls
+- Avoid the risk by totally changing the approach
+- Transfer the risk to a third party
+
+### Defense in depth
+
+- will not provide an impenetrable cyber shield, but it will help an organization minimize risk by keeping it one-step ahead of cyber criminals
+
+**Layering**
+
+If cyber criminals penetrate one layer, they still have to contend with several more layers with each layer being more complicated than the previous. Layering is creating a barrier of multiple defenses that coordinate together to prevent attacks. 
+
+**Limiting**
+
+restrict access to users, so they can only access the resources they need. This can be done using file permissions. But having procedures in stand that prohibits employees from removing sensitive documents from the premises, is also very useful.
+
+**Diversity**
+
+Layers must be different in order to make it difficult to breach the security measurements taken. Use different encryption algorithms/ authentication systems (best to use different manufacturers --> multifactor authentication). 
+
+**Obscurity**
+
+obscure information in order to protect valuable information, for example: what operating system is running on the machine. Error messages should not contain valuable information for the criminals. 
+
+**Simplicity**
+
+if you use to complex systems in order to protect your organization, it may backfire. It is necessary that the employees who manage the security understand how to properly configure it. To maintain availability, a security solution should be simple from the inside, but complex on the outside.
+
 ## 6.3 Incident Response
 
 ## 6.4 Disaster Recovery
