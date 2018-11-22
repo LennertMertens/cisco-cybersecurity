@@ -19,3 +19,34 @@ Hashing is a one-way mathematical function that is relatively easy to compute, b
 - The output has a fixed length.
 - The hash function is one way and is not reversible.
 - Two different input values will almost never result in the same hash values.
+<<<<<<< HEAD
+=======
+
+##5.1.1.3 Hashing Algorithms
+- Hash functions are helpful to ensure that a user/communication error does not change the data accidentally.
+**Simple Hash Algorithm (8-bit Checksum)**
+- The 8-bit checksum is one of the first hashing algorithms, and it is the simplest form of a hash function.
+
+##5.1.1.4 Modern Hashing Algorithms
+_Two most popular are:_
+**Message Digest 5 (MD5) Algorithm**
+- MD5 is a one-way function that makes it easy to compute a hash from the given input data but makes it very difficult to compute input data given only a hash value.
+**Secure Hash Algorithm (SHA)**
+- SHA-2 is a stronger algorithm, and it is replacing MD5.
+
+##5.1.1.5 Hashing Files and Digital Media
+Hashing media helps to answer the following questions:
+- Does the examiner have the files he expects?
+- Is the data corrupted or changed?
+- Can the examiner prove that the files are not corrupt?
+-> by comparing the hash of the original media with the copy
+
+##5.1.1.6 Hashing passwords
+Servers store passwords in a hashed way (I hope so). When a user enters his credentials, the system compares this password to the stored hash. Match? Access granted!
+
+##5.1.1.7 Applications
+Use cryptographic hash functions in the following situations:
+:white_check_mark:	To provide proof of authenticity when it is used with a symmetric secret authentication key, such as IP Security (IPsec) or routing protocol authentication
+:white_check_mark:	To provide authentication by generating one-time and one-way responses to challenges in authentication protocols
+:white_check_mark:	To provide message integrity check proof, such as those used in digitally signed contracts, and public key infrastructure (PKI) certificates, like those accepted when accessing a secure site using a browser
+>>>>>>> update ch5
