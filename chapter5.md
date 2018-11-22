@@ -37,9 +37,10 @@ Hashing is a one-way mathematical function that is relatively easy to compute, b
 
 _Two most popular are:_
 
-** Message Digest 5 (MD5) Algorithm**
+**Message Digest 5 (MD5) Algorithm**
 
 - MD5 is a one-way function that makes it easy to compute a hash from the given input data but makes it very difficult to compute input data given only a hash value.
+
 **Secure Hash Algorithm (SHA)**
 
 - SHA-2 is a stronger algorithm, and it is replacing MD5.
