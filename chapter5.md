@@ -1,5 +1,6 @@
 # Chapter 5: The art of Ensuring Integrity
 
+
 **What is Integrity?**
 - Ensures that data remains unchanged and trustworthy by anyone or anything over its entire life cycle.
 - Critical component to the design, implementation and usage of any system that stores, processes, or transmits data.
@@ -78,3 +79,6 @@ How?
 
 ## 5.1.1.9 Activity
 ![Solution 5.1.1.9"](https://github.com/LennertMertens/cisco-cybersecurity/blob/master/img/C5-001.png "Solution 5.1.1.9")
+
+
+<sup>Written and directed by Cedric De Witte - For any inquiries or suggestions, please send an e-mail to info@cedricdewitte.be - Happy Studying!</sup>
