@@ -105,7 +105,7 @@ _Alice wants to send **Ismelk:heart:** an email with really important informatio
 - Alice sends it to Ismelk
 - Ismelk receives it. To ensure authenticity, he creates a message digest of the message.
 - He takes the encrypted message digest received from Alice, and decrypts it using her public key.
-- Bob compares, if they match, Ismelk  knows that he can trust that no one tampered with the message.
+- Ismelk compares, if they match, Ismelk  knows that he can trust that no one tampered with the message.
 
 ### 5.2.2.2 Using digital signatures
 
@@ -127,6 +127,33 @@ DIY
 ## 5.3 Certificates
 ### 5.3.1 The Basics of Digital Certificates
 ### 5.3.1.1 What is a Digital Certificate?
+
+A digital certificate is equivalent to an **electronic passport**. They enable users, hosts, and organizations to exchange information securely over the Internet. Specifically, a digital certificate **authenticates and verifies** that users sending a message are who they claim to be.
+
+### 5.3.1.2 Using Digital Certificates
+
+Ismelk is confirming an order with Alice. Alice's web server uses a digital certificate to **ensure the transaction**.
+
+- Step 1: Ismelk browses to Alice’s website. A browser designates a secure connection by displaying a lock icon in the security status bar.
+
+- Step 2: Alice’s web server sends a digital certificate to Ismelk’s browser.
+
+- Step 3: Ismelk’s browser checks the certificate stored in the browser settings. Only trusted certificates permit the transaction to go forward.
+
+- Step 4: Ismelk still needs to authenticate and provide a password. This creates a secure session in the background between Ismelk’s computer and Alice’s web server.
+
+- Step 5: Ismelk’s web browser creates a unique, one-time session key.
+
+- Step 6: Ismelk’s browser uses the web server’s public key on its certificate to encrypt the session. The result is that only Alice’s web server can read the transactions sent from Ismelk’s browser.
+
+### 5.3.1.3 What is a Certificate Authority?
+
+The CA issues digital certificates that authenticate the identity of organizations and users.
+
+### 5.3.2 Constructing a Digital Certificate
+### 5.3.2.1 What is Inside a Digital Certificate?
+
+
 
 
 ## 5.4 Database Integrity Enforcement
