@@ -82,8 +82,50 @@ How?
 
 
 ## 5.2 Digital Signatures
+### 5.2.1 Signatures and the law
+### 5.2.1.1 What is a Digital Signature
+
+Digital signatures prove authorship of the contents of a document. Unprotected documents can be easily changed.
+It helps to establish **authenticity, integrity, and non-repudiation**. It cannot be repudiated, it's not reusable, it's unalterable and authentic.
+
+### 5.2.1.2 Non-Repudiation
+
+Non-repudiation is a way to ensure that the sender of a message or document cannot deny having sent the message or document and that the recipient cannot deny having received the message or document.
+
+### 5.2.2 How Digital Signature Technology Works
+### 5.2.2.1 Processes of Creating a Digital Signature
+
+Asymmetric cryptography is the basis for digital signatures. A public key algorithm like RSA generates two keys: one **private** and the other public.
+Procedure:
+_Alice wants to send Ismelk an email with really important information_
+- Alice creates message with a digest of the message
+- She encrypts it with her private key, and bundles it with the public key.
+- Alice sends it to Ismelk
+- Ismelk receives it. To ensure authenticity, he creates a message digest of the message.
+- He takes the encrypted message digest received from Alice, and decrypts it using her public key.
+- Bob compares, if they match, Ismelk  knows that he can trust that no one tampered with the message.
+
+### 5.2.2.2 Using digital signatures
+
+- Code signing - Used to verify the integrity of executable files downloaded from a vendor website. Code signing also uses signed digital certificates to authenticate and verify the identity of the site (Figure 1).
+
+- Digital certificates - Used to verify the identity of an organization or individual to authenticate a vendor website and establish an encrypted connection to exchange confidential data (Figure 2).
+
+### 5.2.2.3 Comparing Digital Signature Algorithms
+
+The three common digital signature algorithms are:
+- Digital Signature Algorithm (DSA)
+- Rivest-Shamir-Adleman (RSA)
+- Elliptic Curve Digital Signature Algorithm (ECDSA). 
+_All three generate and verify digital signatures._
+
+### 5.2.2.4 Lab - Using Digital Signatures
+DIY
 
 ## 5.3 Certificates
+### 5.3.1 The Basics of Digital Certificates
+### 5.3.1.1 What is a Digital Certificate?
+
 
 ## 5.4 Database Integrity Enforcement
 
