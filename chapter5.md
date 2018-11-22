@@ -65,3 +65,16 @@ _Use cryptographic hash functions in the following situations:_
 :white_check_mark:	To provide authentication by generating one-time and one-way responses to challenges in authentication protocols
 
 :white_check_mark:	To provide message integrity check proof, such as those used in digitally signed contracts, and public key infrastructure (PKI) certificates, like those accepted when accessing a secure site using a browser
+
+**ATTENTION!** While hashing can detect accidental changes, it cannot guard against deliberate changes. There is no unique identifying information from the sender in the hashing procedure. This means that anyone can compute a hash for any data, as long as they have the correct hash function. 
+**vulnerable to man-in-the-middle attacks and does not provide security to transmitted data.**
+
+## 5.1.1.8 Cracking hashes
+
+To crack a hash, an attacker must guess the password.
+How?
+- Using dictionary
+- Brute-force attacks
+
+## 5.1.1.9 Activity
+![Solution 5.1.1.9"](https://github.com/LennertMertens/cisco-cybersecurity/blob/master/img/C5-001.png "Solution 5.1.1.9")
