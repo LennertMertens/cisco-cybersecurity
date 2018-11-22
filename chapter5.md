@@ -1,5 +1,6 @@
 # Chapter 5: The art of Ensuring Integrity
-
+## 5.1 Types of Data Integrity Controls
+### 5.1.1 Hashing Algorithms
 
 **What is Integrity?**
 - Ensures that data remains unchanged and trustworthy by anyone or anything over its entire life cycle.
@@ -7,15 +8,13 @@
 
 _Having a well-controlled and well-defined data integrity system increases the stability, performance, and maintainability of a database system._
 
-## 5.1.1 Hashing Algorithms
-
-## 5.1.1.1 What is hashing?
+### 5.1.1.1 What is hashing?
 
 - Hashing is a tool that ensures data integrity by taking binary data (the message) and producing a fixed-length representation called the hash value or message digest.
 - Hash functions replace clear text password or encryption keys because hash functions are one-way functions.
 - Every time the data is changed or altered, the hash value also changes. Because of this, cryptographic hash values are often called digital fingerprints. They can detect duplicate data files, file version changes, and similar applications.
 
-## 5.1.1.2 Hashing Properties
+### 5.1.1.2 Hashing Properties
 
 Hashing is a one-way mathematical function that is relatively easy to compute, but significantly harder to reverse. (Think about grinding coffee beans; impossible to get back to the beans)
 
@@ -26,7 +25,7 @@ Hashing is a one-way mathematical function that is relatively easy to compute, b
 - The hash function is one way and is not reversible.
 - Two different input values will almost never result in the same hash values.
 
-## 5.1.1.3 Hashing Algorithms
+### 5.1.1.3 Hashing Algorithms
 
 - Hash functions are helpful to ensure that a user/communication error does not change the data accidentally.
 
@@ -34,7 +33,7 @@ Hashing is a one-way mathematical function that is relatively easy to compute, b
 
 - The 8-bit checksum is one of the first hashing algorithms, and it is the simplest form of a hash function.
 
-## 5.1.1.4 Modern Hashing Algorithms
+### 5.1.1.4 Modern Hashing Algorithms
 
 _Two most popular are:_
 
@@ -45,7 +44,7 @@ _Two most popular are:_
 
 - SHA-2 is a stronger algorithm, and it is replacing MD5.
 
-## 5.1.1.5 Hashing Files and Digital Media
+### 5.1.1.5 Hashing Files and Digital Media
 
 Hashing media helps to answer the following questions:
 - Does the examiner have the files he expects?
@@ -53,11 +52,11 @@ Hashing media helps to answer the following questions:
 - Can the examiner prove that the files are not corrupt?
 -> by comparing the hash of the original media with the copy
 
-## 5.1.1.6 Hashing passwords
+### 5.1.1.6 Hashing passwords
 
 Servers store passwords in a hashed way (I hope so). When a user enters his credentials, the system compares this password to the stored hash. Match? Access granted!
 
-## 5.1.1.7 Applications
+### 5.1.1.7 Applications
 
 _Use cryptographic hash functions in the following situations:_
 
@@ -70,17 +69,24 @@ _Use cryptographic hash functions in the following situations:_
 **ATTENTION!** While hashing can detect accidental changes, it cannot guard against deliberate changes. There is no unique identifying information from the sender in the hashing procedure. This means that anyone can compute a hash for any data, as long as they have the correct hash function. 
 **vulnerable to man-in-the-middle attacks and does not provide security to transmitted data.**
 
-## 5.1.1.8 Cracking hashes
+### 5.1.1.8 Cracking hashes
 
 To crack a hash, an attacker must guess the password.
 How?
 - Using dictionary
 - Brute-force attacks
 
-## 5.1.1.9 Activity
+### 5.1.1.9 Activity
 ![Solution 5.1.1.9"](https://github.com/LennertMertens/cisco-cybersecurity/blob/master/img/C5-001.png "Solution 5.1.1.9")
 
 
+## 5.2 Digital Signatures
+
+## 5.3 Certificates
+
+## 5.4 Database Integrity Enforcement
+
+## 5.5 Summary
 
 
 
