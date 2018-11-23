@@ -154,9 +154,9 @@ terms:
 
 Raid types:
 
-![](https://github.com/LennertMertens/cisco-cybersecurity/tree/master/img/RAID.PNG)
+![](https://github.com/LennertMertens/cisco-cybersecurity/blob/master/img/RAID.PNG)
 
-![](https://github.com/LennertMertens/cisco-cybersecurity/tree/master/img/RAID2.PNG)
+![](https://github.com/LennertMertens/cisco-cybersecurity/blob/master/img/RAID2.PNG)
 
 **Spanning Tree**
 
