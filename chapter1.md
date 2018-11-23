@@ -48,6 +48,19 @@ ISM Standards: Establishing information security management standards among nati
 New Laws: Enacting new laws to discourage cyberattacks and data breaches. These laws have severe penalties to punish cyber criminals caught carrying out illegal actions.  
 
 ## 1.3 Common threats
+### 1.3.1 Threat arena's
+#### 1.3.1.2 Types of Personal Records
+Medical Records  
+Education Records  
+Employment and Financial Records  
+
+#### 1.3.1.3 Threats to Internet Services
+There are many essential technical services needed for a network, and ultimately the Internet, to operate. These services include routing, addressing, domain naming, and database management. These services also serve as prime targets for cyber criminals.  
+Criminals use packet-sniffing tools to capture data streams over a network.  
+
+With DNS spoofing (or DNS cache poisoning), the criminal introduces false data into a DNS resolver’s cache. DNS servers redirect traffic for a specific domain to the criminal’s computer, instead of the legitimate owner of the domain.   
+
+Packet forgery (or packet injection) interferes with an established network communication by constructing packets to appear as if they are part of a communication. Packet forgery allows a criminal to disrupt or intercept packets. This process enables the criminal to hijack an authorized connection or denies an individual’s ability to use certain network services. Cyber professionals call this a man-in-the-middle attack.  
 
 ## 1.4 Spreading Cybersecurity threats
 
