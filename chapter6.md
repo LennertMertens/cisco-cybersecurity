@@ -130,6 +130,91 @@ obscure information in order to protect valuable information, for example: what 
 
 if you use to complex systems in order to protect your organization, it may backfire. It is necessary that the employees who manage the security understand how to properly configure it. To maintain availability, a security solution should be simple from the inside, but complex on the outside.
 
+### Redundancy
+
+**Single Points of failure**
+
+point in critical operation that causes the entire operation to fail should it fail 
+
+**N+ 1 Redundancy**
+
+N components need at least 1 backup component, in case of failure. example: power generator that comes online when something happens to the main power source. 
+
+**RAID**
+
+Redundant array of independent disks, combines multiple physical hard drives into a single logical unit to provide data redundancy and improve performance.
+
+A RAID solution can be either hardware-based or software-based. A hardware-based solution requires a specialized hardware controller on the system that contains the RAID drives. 
+
+terms:
+
+- Parity: detects data errors
+- Striping: writes data across multiple drives
+- Mirroring: Stores duplicate data on a second drive
+
+Raid types:
+
+![](https://github.com/LennertMertens/cisco-cybersecurity/tree/master/img/RAID.PNG)
+
+![](https://github.com/LennertMertens/cisco-cybersecurity/tree/master/img/RAID2.PNG)
+
+**Spanning Tree**
+
+The spanning tree protocol addresses issues around loops and duplicate frames in a network. Makes sure there is only logical path between all destinations on the network. The redundant links can come up if another active one fails.
+
+**Router Redundancy**
+
+An additional router (Standby Router) connected to the internet that becomes active  in case that the active one (Forwarding router) fails.
+
+**Router Redundancy Options**
+
+- Hot Standby Router Protocol (HSRP): first-hop routing redundancy. high network availability. 
+- Virtual Router Redundancy Protocol (VRRP): elected router is the virtual router master, others are used as back-up. always in conjunction with one or more other routers attached to the LAN.
+- Gateway Load Balancing Protocol (GLBP): protect data traffic from a failed router on a circuit. Like HSRP and VRRP but also allowing load balancing.
+
+**Location Redundancy**
+
+3 types:
+
+- Synchronous
+  1. Synchronizes both locations in real time
+  2. Requires high bandwidth
+  3. Locations must be close together to reduce latency
+- Asynchronous Replication
+  1. Not synchronized in real time but close to it
+  2. Requires less bandwidth
+  3. Sites can be further apart because latency is less of an issue
+- Point-in-time-Replication
+  1. Updates the backup data location periodically
+  2. Most bandwidth conservative because it does not require a constant connection
+
+### System Resilience
+
+**Resilient Design**
+
+make the system tolerant to failure. (redundant links running STP) Resilient design is more than just adding redundancy. It is critical to understand the business needs of the organization, and then incorporate redundancy to create a resilient network.
+
+**Application Resilience**
+
+(1. High complexity and cost -> 3. Low complexity and cost)
+
+1. Fault Tolerant Hardware: A system designed by building multiples of all critical components into the same computer
+2. Cluster Architecture: group of servers acting like 1 system
+3. Backup and restore: Copying files for the purpose of being able to restore them if data loss occurs.
+
+**IOS Resilience**
+
+The Interwork Operating System (IOS) for Cisco routers and switches include a resilient configuration feature.
+
+- faster recovery
+- maintains secure working copy of the router IOS image file + copy of running-config (not removeable)
+
+commands:
+
+- secure boot-image
+- secure boot-config
+- show secure bootset
+
 ## 6.3 Incident Response
 
 ## 6.4 Disaster Recovery
