@@ -322,4 +322,84 @@ Advanced threat intelligence is a type of event or profile data that can contrib
 
 ## 6.4 Disaster Recovery
 
+### Disasters Recovery Planning
+
+**Types of Disasters**
+
+- Natural Disasters: differ depending on location, some events difficult to predict. 
+  1. Geological Disasters (earthquakes, tsunamis,..)
+  2. Meteorological Disasters (Hurricanes, snow storms, lightning,...)
+  3.  Health Disasters (Widespread illnesses, pandemics,.. ) 
+  4. Miscellaneous Disasters (fires, floods, solar storms, avalanches)
+- Human-Caused Disasters: involve people or organizations.
+  1. Labor events (strikes, walkouts and slowdowns)
+  2. Social-political events (vandalism, blockades, protest, sabotage, terrorism and war)
+  3. Materials event (hazardous spills and fires)
+  4. Utilities disruptions (power failures, communication outages, fuel shortages and radioactive fallout)
+
+**Disaster Recovery Plan**
+
+Put into action when the disaster is ongoing. The DRP includes the activities the organization takes to assess, salvage, repair, and restore damaged facilities or assets.
+
+- Who is responsible for this process?
+- What does the individual need to perform the process?
+- Where does the individual perform this process?
+- What is the process?
+- Why is the process critical?
+
+**Implementing Disaster Recovery Controls**
+
+1. Preventive Controls
+   - Keeping data backed up
+   - Keeping data backups off-site
+   - Using surge protectors
+   - Installing generators
+2. Detective Controls
+   - Using up-to-date antivirus software
+   - Installing server and network monitoring software
+3. Corrective Controls
+   - Keeping critical documents in the disaster recovery plan
+
+### Business Continuity Planning
+
+**Need for Business Continuity**
+
+impossible to predict/protect yourself from every possible scenario. but it is important for companies to have plans in place that ensure business continuity regardless of what may occur. Personnel continue to perform all business processes in an alternate manner until normal operations resume.
+
+**Business Continuity Considerations**
+
+Organizations need employees to properly configure and operate systems. Data can be useless until it provides information. An organization should look at the following:
+
+- Getting the right people to the right places
+
+- Documenting configurations
+
+- Establishing alternate communications channels for both voice and data
+
+- Providing power
+
+- Identifying all dependencies for applications and processes so that they are properly understood
+
+- Understanding how to carry out automated tasks manually
+
+**Business Continuity Best Practices**
+
+the National Institute of Standards and Technology (NIST) developed the following best practices:
+
+1. Write a policy that provided guidance to develop the business continuity plan and assigns roles to carry out the tasks.
+
+2. Identify critical systems and processes and prioritize them based on necessity.
+
+3. Identify vulnerabilities, threats, and calculate risks.
+
+4. Identify and implement controls and countermeasures to reduce risk.
+
+5. Devise methods to bring back critical systems quickly.
+
+6. Write procedures to keep the organization functioning in a chaotic state.
+
+7. Test the plan.
+
+8. Update the plan regularly.
+
 ## 6.5 Summary
