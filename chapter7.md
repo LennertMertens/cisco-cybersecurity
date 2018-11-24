@@ -274,4 +274,99 @@ Een van de risico's verbonden aan slimme systemen is dat de personen die toegang
 Hardware-monitoring is vaak te vinden in grote server farms. Een server farm is een faciliteit die honderden of duizenden servers huisvest voor bedrijven. Google heeft over de hele wereld veel server farms om optimale services te bieden.
 Hardwarebewakingssystemen worden gebruikt om de gezondheid van deze systemen te bewaken en om downtime van servers en applicaties te minimaliseren. Moderne hardwarebewakingssystemen maken gebruik van USB- en netwerkpoorten om de conditie van de CPU-temperatuur, voedingsstatus, ventilatorsnelheid en temperatuur, geheugenstatus, schijfruimte en netwerkkaartstatus te verzenden.
 
+### 5. Netwerk verharding
 
+#### Operation Centers
+
+##### Network Operation Center (NOC)
+- oplossen van netwerkproblemen
+- bestaat uit een of meer locaties met de hulpprogramma's die beheerders
+
+#### Security Operation Center (SOC)
+- speciale site die de informatiesystemen van de organisatie zoals websites, applicaties, databases, bewaakt, beoordeelt en verdedigt.
+
+Beide entiteiten gebruiken een hiërarchische laagstructuur om gebeurtenissen af te handelen.
+Laag 1 eerste behandelt alle gebeurtenissen en escaleert elke gebeurtenis die niet kan worden verwerkt naar de tweede laag. Laag 2 beoordeelt het evenement in detail om het op te lossen.
+Laag 3 zijn de deskundigen en lossen problemen op die laag 2 niet kon oplossen
+
+Dit testen gebuerd door simulatie-oefening
+
+##### Switches, Routers, and Network Appliances
+
+- verander standaart wachtwoord
+
+###### Switches
+####### gevaren
+- ARP
+- STP
+####### oplossingen
+-poort beveiliging (aantal geldige MAC-adressen dat is toegestaan op een poort)
+
+###### VLAN's
+####### gevaren( valt buiten de curus) 
+####### oplossingen
+- regelmatige systeempatching en updates van de IOS.
+
+###### Firewalls
+
+Een firewall filtert ongeoorloofd of mogelijk gevaarlijk verkeer van het netwerk. Een eenvoudige firewall biedt basisfuncties voor verkeersfiltering met behulp van toegangscontrolelijsten (ACL's)
+
+###### Routers
+
+Fysieke beveiliging, geavanceerde configuratie-instellingen, gebruik van veilige routeringsprotocollen met authenticatie en gepaste systeemupdates en patches indien nodig.
+
+###### Wireless and Mobile Devices
+
+De beste manier om een draadloos netwerk te beveiligen, is door gebruik te maken van verificatie en codering. De oorspronkelijke draadloze standaard, 801.11, introduceerde twee soorten authenticatie :
+
+1.Open systeemverificatie - Elk draadloos apparaat kan verbinding maken met het draadloze netwerk. Gebruik deze methode in situaties waar beveiliging geen probleem is.
+
+2.Gedeelde sleutelverificatie - biedt mechanismen voor het verifiëren en coderen van gegevens tussen een draadloze client en AP of draadloze router.
+- WEP
+- WPA
+- WPA2
+
+##### Network and Routing Services
+
+###### Rip beveiliging
+- filter van packeten gestuurd van source/distination  
+- bekijk log'
+- check routes voor je zz kan accpeteren
+
+###### NTP
+De juiste tijd hebben binnen netwerken is belangrijk. Correcte tijdstempels volgen nauwkeurig netwerkgebeurtenissen zoals beveiligingsovertredingen. Bovendien is kloksynchronisatie van cruciaal belang voor de juiste interpretatie van gebeurtenissen in syslog-gegevensbestanden en voor digitale certificaten.
+Network Time Protocol (NTP) is een protocol dat de klokken van computersystemen synchroniseert via gegevensnetwerken. Met NTP kunnen netwerkapparaten hun tijdsinstellingen synchroniseren met een NTP-server.
+Cybercriminelen vallen timeservers aan om beveiligde communicatie te onderbreken die afhankelijk is van digitale certificaten en om aanvalsinformatie te verbergen, zoals nauwkeurige tijdstempels.
+
+#### Voice and Video Equipment
+
+Voice over IP (VoIP) maakt gebruik van netwerken zoals internet om telefoongesprekken te voeren en te ontvangen.
+Er zijn verschillende opties beschikbaar voor de telefoonset:
+- Een traditionele telefoon met een adapter (de adapter fungeert als een hardware-interface tussen een traditionele, analoge telefoon en een digitale VoIP-lijn)
+- Een VoIP-compatibele telefoon
+- VoIP-software op een computer geïnstalleerd
+
+Voer de volgende tegenmaatregelen uit om VoIP te beveiligen:
+
+- Versleutel stemberichtpakketten om te beschermen tegen afluisteren.
+- Gebruik SSH om gateways en switches te beveiligen.
+- Wijzig alle standaardwachtwoorden.
+- Gebruik een inbraakdetectiesysteem om aanvallen zoals ARP-vergiftiging te detecteren.
+- Gebruik sterke authenticatie om spoofing bij registratie te beperken (cybercriminelen leiden alle inkomende oproepen door naar het slachtoffer), proxy imiteren (bedriegt het slachtoffer in communicatie met een frauduleuze proxy die is opgezet door de cybercriminelen) en roep kaping (de oproep wordt onderschept en omgeleid naar een ander pad voordat de bestemming wordt bereikt).
+- Implementeer firewalls die VoIP herkennen om streams te monitoren en abnormale signalen te filteren.
+
+#### Netwerk- en IoT-sensoren
+
+Bedrijven gebruiken deze apparaten om inventaris, voertuigen en personeel bij te houden. IoT-apparaten bevatten geospatiale sensoren. Een gebruiker kan omgevingsvariabelen zoals temperatuur, vochtigheid en belichting globaal lokaliseren, bewaken en besturen. De IoT-industrie vormt een enorme uitdaging voor professionals in de informatiebeveiliging omdat veel IoT-apparaten gevoelige informatie vastleggen en verzenden. Cybercriminelen richten zich op deze systemen om gegevens te onderscheppen of om de prestaties en beschikbaarheid te beïnvloeden.
+
+### Physical Access Control
+
+Fysieke barrières bestaan meestal uit
+- Omheiningsheksysteem
+- Beveiliging poortsysteem
+- Bolderpalen
+- Biometrische authenticatiesystemen omvatten metingen van het gezicht, vingerafdrukken, handgeometrie, iris, retina, handtekening en stem. (De CER (Crossover Error Rate) is de snelheid waarbij de foutieve afkeuringsfrequentie en de foutieve acceptatiesnelheid gelijk zijn, zoals weergegeven in de figuur.)
+- Badges
+- wachters
+- Video bewaking
+- Radio-frequency identification (identificatie met radiogolven, RFID)
