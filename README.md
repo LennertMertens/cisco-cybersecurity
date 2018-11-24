@@ -17,7 +17,7 @@ DEADLINE: 28/11
 | H4        | Sam     | []    |
 | H5        | Cedric  | []    |
 | H6        | Jens    | []    |
-| H7        | Robin   | []    |
+| H7        | Robin   | [X (eerste versie)]    |
 | H8        | ?       | []    |
 
 ## Layout
