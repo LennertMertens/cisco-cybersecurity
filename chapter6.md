@@ -217,6 +217,109 @@ commands:
 
 ## 6.3 Incident Response
 
+### Incident Response Phase
+
+**preparation**
+
+When an incident occurs, the organization must know how to respond. An organization needs to develop an incident response plan: a Computer Security Incident Response Team (CSIRT) to manage the response.
+
+- maintain incident response plan
+- ensure members are knowledgeable about the plan
+- test the plan
+- get management approval of the plan
+
+The CSIRT can be an established group within the organization or an ad hoc one. The team follows the steps, non are skipped. National CSIRTs oversee incident handling for a country.
+
+**Detection and Analysis**
+
+Detection starts when someone discovers the incident. When buying a detection system is important that you have someone monitoring the logs and alert, otherwise the system is useless. Incident analysis helps to identify the source, extent, impact, and details of a data breach. 
+Detection and analysis includes the following:
+
+- Alerts and notifications
+- Monitoring and follow-up
+
+**Containment and Eradication And Recovery**
+
+Containment efforts include the immediate actions performed such as disconnecting a system from the network to stop the information leak. Containing and eradicating a breach may require additional downtime for systems. 
+Recovery: resolve the breach and restoring the system(s) involved.
+
+**Post-Incident Follow-Up**
+
+Look at the cause of the incident and ask the following questions:
+
+1. What actions will prevent the incident from reoccurring?
+2. What preventive measures need strengthening?
+3. How can it improve system monitoring?
+4. How can it minimize downtime during the containment, eradication, and recovery phases?
+5. How can management minimize the impact to the business?
+
+![](https://github.com/LennertMertens/cisco-cybersecurity/blob/master/img/6.3.1.5.PNG)
+
+### Incident Response Technologies
+
+**Network Admission Control (NAC)**
+
+Authorized users with compliant systems can access to the network. A compliant system meets all of the policy requirements of the organization. (for example: a laptop you take from a home wireless network may not access the network).
+NAC evaluates incoming devices against the policies of the network, also quarantining the systems that do not comply.
+A NAC framework can use the existing network infrastructure and third-party software, or control network access, evaluate compliance, and enforces security policy. 
+
+what NAC checks:
+
+- Updated virus detection
+- Operating system patches and updates
+- complex password enforcement
+
+**Intrusion Detection Systems (IDSs)**
+
+passively monitor traffic on a network. copies the traffic stream and analyzes the copied traffic rather than the actual forwarded packets. compare traffic to known malicious signatures, this happens offline meaning:
+
+- IDS works passively - meaning it does not take any action
+- IDS device is physically positioned in the network so that traffic must be mirrored in order to reach it.
+- Network traffic does not pass through the IDS unless it is mirrored.
+
+Advantage: does not negatively affect the flow of forwarded traffic.
+Disadvantage: cannot stop malicious single-packet attacks from reaching the target. 
+
+an IDS often requires assistance from another network device.
+
+**Intrusion Prevention Systems (IPS)**
+
+Builds upon IDS technology, however an IPS operates in inline mode (incoming and outgoing traffic must flow through it for processing). Can immediately detect and address a network problem. 
+Some systems use a blend of detection technologies, including signature-based, profile-based, and protocol analysis-based intrusion detection. This deeper analysis enables the IPS to identify, stop, and block attacks that would pass through a traditional firewall device.
+
+Advantage: can stop single-packet attacks from reaching the target system.
+Disadvantage: a poorly configured IPS can negatively affect the packet flow of the forwarded traffic.
+
+**NetFlow and IPFIX**
+
+NetFlow is a Cisco IOS technology that provides statistics on packets (router / multilayer switch). 
+
+Internet Engineering Task Force (IETF) used Cisco's NetFlow Version 9 as basis for IP Flow Information Export (IPFIX). IPFIX is a format for exporting this data. 
+
+Applications that support IPFIX can display statistics from any router that supports the standard. Collecting, storing, and analyzing the aggregated information provided by IPFIX supported devices provides the following benefits:
+
+- Secures the network against internal and external threats
+
+- Troubleshoots network failures quickly and precisely
+
+- Analyzes network flows for capacity planning
+
+**Advanced Threat Intelligence**
+
+Organizations may be able to detect indicators of attack in its logs and system reports for the following security alerts:
+
+- Account lockouts
+
+- All database events
+
+- Asset creation and deletion
+
+- Configuration modification to systems
+
+Advanced threat intelligence is a type of event or profile data that can contribute to security monitoring and response.
+
+![](https://github.com/LennertMertens/cisco-cybersecurity/blob/master/img/6.3.2.5.PNG)
+
 ## 6.4 Disaster Recovery
 
 ## 6.5 Summary
