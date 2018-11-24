@@ -7,27 +7,28 @@ There are loads of "groups" collecting mass amounts of data. Think about Google,
 ### 1.2.1 Cybersecurity criminals
 #### 1.2.1.1
 
-Amateurs: At home, with no skill trying to hack systems.  
+__Amateurs:__ At home, with no skill trying to hack systems.  
 
-Hackers: This group of criminals breaks into computers or networks to gain access for various reasons.  
+__Hackers:__ This group of criminals breaks into computers or networks to gain access for various reasons.  
 
-Organised Hackers: These criminals include organizations of cyber criminals, hacktivists, terrorists, and state-sponsored hackers. Cyber criminals are usually groups of professional criminals focused on control, power, and wealth. The criminals are highly sophisticated and organized, and may even provide cybercrime as a service.  
+__Organised Hackers:__ These criminals include organizations of cyber criminals, hacktivists, terrorists, and state-sponsored hackers. Cyber criminals are usually groups of professional criminals focused on control, power, and wealth. The criminals are highly sophisticated and organized, and may even provide cybercrime as a service.  
 
-White hat hackers: These are ethical hackers. They have the permission to test the security of a system by trying to hack it. When they found a vulnerability, they repost these to the developers to fix it.  
+__White hat hackers:__ These are ethical hackers. They have the permission to test the security of a system by trying to hack it. When they found a vulnerability, they repost these to the developers to fix it.  
 
-Grey hat hackers: They commit crimes without permission but not to cause damage. Afterwards they may disclose the vulnerability publicly and the affected organisation fixes the problem.  
+__Grey hat hackers:__ They commit crimes without permission but not to cause damage. Afterwards they may disclose the vulnerability publicly and the affected organisation fixes the problem.  
 
-Black hat hackers: They hack systems for their own benefit and malicious reasons.  
+__Black hat hackers:__ They hack systems for their own benefit and malicious reasons.  
 
 #### 1.2.1.3 Motives
-Script kiddies: Teenagers or inexperienced hackers running existing scripts, tools, ...that could cause harm.  
+__Script kiddies:__ Teenagers or inexperienced hackers running existing scripts, tools, ...that could cause harm.  
 
-Vulnerability broker: These are usually grey hat hackerswho attempts to discover exploits and report them tovendors, sometimes for prizes or rewards.  
+__Vulnerability broker:__ These are usually grey hat hackerswho attempts to discover exploits and report them tovendors, sometimes for prizes or rewards.  
 
-Hacktivists: These are gray hat hackerswho rally and protest against different political and social ideas.  
-Cyber criminals: Black hat hackers.  
+__Hacktivists:__ These are gray hat hackerswho rally and protest against different political and social ideas.  
 
-State-sponsored: Either white- or black hat who steal government secrets, gather intelligence, sabotage networks...  
+__Cyber criminals:__ Black hat hackers.  
+
+__State-sponsored:__ Either white- or black hat who steal government secrets, gather intelligence, sabotage networks...  
 
 ### 1.2.1 Cybersecurity specialists
 #### 1.2.2.1 Why Become a Cybersecurity Specialist?
@@ -37,15 +38,15 @@ Highly Portable career
 Service to the public
 
 #### 1.2.2.2 Thwarting Cyber Criminals
-Vulnerability database: Collection of known vulnerabilities  
+__Vulnerability database:__ Collection of known vulnerabilities  
 
-Early warning systems: Establishing early warning sensors and alert networks. Due to cost and the impossibility of monitoring every network, organizations monitor high-value targets or create imposters that look like high-value targets. Because these high-value targets are more likely to experience attacks, they warn others of potential attacks.  
+__Early warning systems:__ Establishing early warning sensors and alert networks. Due to cost and the impossibility of monitoring every network, organizations monitor high-value targets or create imposters that look like high-value targets. Because these high-value targets are more likely to experience attacks, they warn others of potential attacks.  
 
-Share Cyber Intelligence: Sharing cyber intelligence information. Business, government agencies and countries now collaborate to share critical information about serious attacks to critical targets in order to prevent similar attacks in other places. Many countries have established cyber intelligence agencies to collaborate worldwide in combating major cyberattacks.  
+__Share Cyber Intelligence:__ Sharing cyber intelligence information. Business, government agencies and countries now collaborate to share critical information about serious attacks to critical targets in order to prevent similar attacks in other places. Many countries have established cyber intelligence agencies to collaborate worldwide in combating major cyberattacks.  
 
-ISM Standards: Establishing information security management standards among national and international organizations. The ISO 27000 is a good example of these international efforts.  
+__ISM Standards:__ Establishing information security management standards among national and international organizations. The ISO 27000 is a good example of these international efforts.  
 
-New Laws: Enacting new laws to discourage cyberattacks and data breaches. These laws have severe penalties to punish cyber criminals caught carrying out illegal actions.  
+__New Laws:__ Enacting new laws to discourage cyberattacks and data breaches. These laws have severe penalties to punish cyber criminals caught carrying out illegal actions.  
 
 ## 1.3 Common threats
 ### 1.3.1 Threat arena's
@@ -56,11 +57,12 @@ Employment and Financial Records
 
 #### 1.3.1.3 Threats to Internet Services
 There are many essential technical services needed for a network, and ultimately the Internet, to operate. These services include routing, addressing, domain naming, and database management. These services also serve as prime targets for cyber criminals.  
-Criminals use packet-sniffing tools to capture data streams over a network.  
 
-With DNS spoofing (or DNS cache poisoning), the criminal introduces false data into a DNS resolver’s cache. DNS servers redirect traffic for a specific domain to the criminal’s computer, instead of the legitimate owner of the domain.   
+Criminals use __packet-sniffing__ tools to capture data streams over a network.  
 
-Packet forgery (or packet injection) interferes with an established network communication by constructing packets to appear as if they are part of a communication. Packet forgery allows a criminal to disrupt or intercept packets. This process enables the criminal to hijack an authorized connection or denies an individual’s ability to use certain network services. Cyber professionals call this a man-in-the-middle attack.  
+With __DNS spoofing__ (or DNS cache poisoning), the criminal introduces false data into a DNS resolver’s cache. DNS servers redirect traffic for a specific domain to the criminal’s computer, instead of the legitimate owner of the domain.   
+
+__Packet forgery__ (or packet injection) interferes with an established network communication by constructing packets to appear as if they are part of a communication. Packet forgery allows a criminal to disrupt or intercept packets. This process enables the criminal to hijack an authorized connection or denies an individual’s ability to use certain network services. Cyber professionals call this a man-in-the-middle attack.  
 
 #### 1.3.1.4 Threats to Key Industry Sectors
 Key industry sectors offer networking infrastructure systems such as manufacturing, energy, communication and transportation. For example, the smart grid is an enhancement to the electrical generation and distribution system. The electrical grid carries power from central generators to a large number of customers. A smart grid uses information to create an automated advanced energy delivery network. World leaders recognize that protecting their infrastructure is critical to protecting their economy.  
@@ -84,8 +86,7 @@ The efforts to protect people’s way of life often conflicts with their right t
 ### 1.4.1 How Threats Spread
 #### 1.4.1.1 Internal and External Threats
 
-
-##### Internal Security Threats
+#### Internal Security Threats
 
 Attacks can originate from within an organization or from outside of the organization, as shown in the figure. An internal user, such as an employee or contract partner, can accidently or intentionally:  
 
@@ -99,11 +100,11 @@ Accidentally invite malware onto the network through malicious email or websites
 
 Internal threats have the potential to cause greater damage than external threats because internal users have direct access to the building and its infrastructure devices. Internal attackers typically have knowledge of the corporate network, its resources, and its confidential data. They may also have knowledge of security countermeasures, policies and higher levels of administrative privileges.
 
-##### External Security Threats
+#### External Security Threats
 
 External threats from amateurs or skilled attackers can exploit vulnerabilities in networked devices, or can use social engineering, such as trickery, to gain access. External attacks exploit weaknesses or vulnerabilities to gain access to internal resources.  
 
-##### Traditional Data
+#### Traditional Data
 
 Corporate data includes personnel information, intellectual property, and financial data. Personnel information includes application materials, payroll, offer letters, employee agreements, and any information used in making employment decisions. Intellectual property, such as patents, trademarks and new product plans, allows a business to gain economic advantage over its competitors. Consider this intellectual property as a trade secret; losing this information can be disastrous for the future of the company. Financial data, such as income statements, balance sheets, and cash flow statements, gives insight into the health of the company.  
 
@@ -147,19 +148,19 @@ The defenses against cyberattacks at the start of the cyber era were low. A smar
 In the U.S., the National Institute of Standards and Technologies (NIST) created a framework for companies and organizations in need of cybersecurity professionals. The framework enables companies to identify the major types of responsibilities, job titles, and workforce skills needed. The National Cybersecurity Workforce Framework categorizes and describes cybersecurity work. It provides a common language that defines cybersecurity work along with a common set of tasks and skills required to become a cybersecurity specialist. The framework helps to define professional requirements in cybersecurity.
 
 #### 1.5.1.2 The National Cybersecurity Workforce Framework
-Operate and Maintain includes providing the support, administration, and maintenance required to ensure IT system performance and security.
+__Operate and Maintain__ includes providing the support, administration, and maintenance required to ensure IT system performance and security.
 
-Protect and Defend includes the identification, analysis, and mitigation of threats to internal systems and networks.  
+__Protect and Defend__ includes the identification, analysis, and mitigation of threats to internal systems and networks.  
 
-Investigate includes the investigation of cyber events and/or cyber crimes involving IT resources.  
+__Investigate__ includes the investigation of cyber events and/or cyber crimes involving IT resources.  
 
-Collect and Operate includes specialized denial and deception operations and the collection of cybersecurity information.  
+__Collect and Operate__ includes specialized denial and deception operations and the collection of cybersecurity information.  
 
-Analyze includes highly specialized review and evaluation of incoming cybersecurity information to determine if it is useful for intelligence.  
+__Analyze__ includes highly specialized review and evaluation of incoming cybersecurity information to determine if it is useful for intelligence.  
 
-Oversight and Development provides for leadership, management, and direction to conduct cybersecurity work effectively.  
+__Oversight and Development__ provides for leadership, management, and direction to conduct cybersecurity work effectively.  
 
-Securely Provision includes conceptualizing, designing, and building secure IT systems.  
+__Securely Provision__ includes conceptualizing, designing, and building secure IT systems.  
 
 Within each category, there are several specialty areas. The specialty areas then define common types of cybersecurity work.  
 
@@ -211,10 +212,10 @@ Cyber heroes also analyze policy, trends, and intelligence to understand how cyb
 
 The following recommendations will help aspiring cybersecurity specialists to achieve their goals:  
 
-Study: Learn the basics by completing courses in IT. Be a life-long learner. Cybersecurity is an ever-changing field, and cybersecurity specialists must keep up.  
-Pursue Certifications: Industry and company sponsored certifications from organizations such as Microsoft and Cisco prove that one possesses the knowledge needed to seek employment as a cybersecurity specialist.  
-Pursue Internships: Seeking out a security internship as a student can lead to opportunities down the road.  
-Join Professional Organizations: Join computer security organizations, attend meetings and conferences, and join forums and blogs to gain knowledge from the experts.  
+__Study:__ Learn the basics by completing courses in IT. Be a life-long learner. Cybersecurity is an ever-changing field, and cybersecurity specialists must keep up.  
+__Pursue Certifications:__ Industry and company sponsored certifications from organizations such as Microsoft and Cisco prove that one possesses the knowledge needed to seek employment as a cybersecurity specialist.  
+__Pursue Internships:__ Seeking out a security internship as a student can lead to opportunities down the road.  
+__Join Professional Organizations:__ Join computer security organizations, attend meetings and conferences, and join forums and blogs to gain knowledge from the experts.  
 
 ## 1.6 Summary
 ### 1.6.1 Conclusion
