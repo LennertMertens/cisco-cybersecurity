@@ -332,7 +332,7 @@ Voer de volgende tegenmaatregelen uit om VoIP te beveiligen:
 
 Een gebruiker kan omgevingsvariabelen zoals temperatuur, vochtigheid en belichting globaal lokaliseren, bewaken en besturen. Cybercriminelen richten zich op deze systemen om gegevens te onderscheppen of om de prestaties en beschikbaarheid te beïnvloeden.
 
-### Physical Access Control
+### Physical Access Control (het laaste alle)
 
 Fysieke barrières bestaan meestal uit
 - Omheiningsheksysteem
