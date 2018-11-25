@@ -15,9 +15,9 @@ DEADLINE: 28/11
 | H2        | Lennert | [x]   |
 | H3        | Thomas  | []    |
 | H4        | Sam     | []    |
-| H5        | Cedric  | []    |
+| H5        | Cedric  | [x]    |
 | H6        | Jens    | []    |
-| H7        | Robin   | [X (eerste versie)]    |
+| H7        | Robin   | [x]    |
 | H8        | ?       | []    |
 
 ## Layout
