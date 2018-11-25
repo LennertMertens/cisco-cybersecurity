@@ -33,7 +33,7 @@ De voordelen hiervan is:
 
 - Beheerders kunnen updates goedkeuren/weigeren, forceren voor een specifieke datum,rapporten opvragen
 - Computer's hebben geen verbinding met internet nodig (een systeem krijgt de update van een lokale server)
--Gebruikers kunnen updates niet uitschakelen of omzeilenµ
+- Gebruikers kunnen updates niet uitschakelen of omzeilen
 
 #### Firewalls en inbraakdetectiesystemen (Intrusion Detection Systems) voor het host systeeem
 
@@ -129,7 +129,6 @@ volgende typen filters kunnen worden toegepast:
 
 - Browsergebaseerde filters via een externe browserextensie
 - E-mailfilters via een client- of servergebaseerd filter
-- Filters aan de clientzijde geïnstalleerd op een specifieke computer
 - Op router gebaseerde contentfilters die voorkomen dat verkeer het netwerk binnendringt
 - Op apparaten gebaseerde contentfiltering vergelijkbaar met op router gebaseerd
 - Op cloud gebaseerde contentfiltering
@@ -157,11 +156,11 @@ Een medewerker staat op en verlaat zijn computer om een pauze te nemen. Een orga
 
 De beste beveiligingsmethode om een niet-actieve timer te configureren die de gebruiker automatisch uitlogt en het scherm vergrendelt na een bepaalde periode.
 
-##### Aanmeldtijden
+**Aanmeldtijden**
 
-Hierbij kunnen medewerkers op bepaalde uren willen laten inloggen, bijvoorbeeld van 07.00 tot 18.00 uur. Het systeem blokkeert aanmeldingen tijdens de uren die buiten de toegestane inloguren vallen.
+Hierbij kunnen medewerkers op bepaalde uren inloggen, bijvoorbeeld van 07.00 tot 18.00 uur. Het systeem blokkeert aanmeldingen die buiten uren inloguren vallen.
 
-#### Voorraad en RFID-tags
+**Voorraad en RFID-tags**
 Radiofrequentie-identificatie (RFID) maakt gebruik van radiogolven om objecten te identificeren en te volgen. RFID-inventarissystemen gebruiken tags die zijn gekoppeld aan alle items die een organisatie wil volgen. De tags bevatten een geïntegreerd circuit dat verbinding maakt met een antenne. RFID-tags zijn klein en vereisen zeer weinig stroom, dus ze hebben geen batterij nodig om informatie op te slaan om met een lezer uit te wisselen. RFID kan het bijhouden van activa helpen automatiseren of elektronische apparaten draadloos vergrendelen, ontgrendelen of configureren.
 
 
@@ -171,30 +170,26 @@ Radiofrequentie-identificatie (RFID) maakt gebruik van radiogolven om objecten t
 
 #### Remote desktop
 
-Externe toegang verwijst naar elke combinatie van hardware en software waarmee gebruikers op afstand toegang hebben tot een lokaal intern netwerk.
-
-Met het Windows-besturingssysteem kunnen technici Remote Desktop en Hulp op afstand gebruiken om computers te repareren en te upgraden.
-Het installatieproces van Windows schakelt standaard geen extern bureaublad in. Als u deze functie inschakelt, wordt poort 3389 geopend en dit kan leiden tot een beveiligingslek als een gebruiker deze service niet nodig heeft.
+Het het Windows-besturingssysteem kunnen technici Remote Desktop  gebruiken om computers te besturen.
+Als u deze functie inschakelt, wordt poort 3389 geopend en dit kan leiden tot een beveiligingslek als de service niet wordt gebruikt.
 
 #### Telnet, SSH, and SCP
 
-Secure Shell (SSH) is een protocol dat zorgt voor een veilige (versleutelde) beheerverbinding met een apparaat op afstand. SSH zou Telnet moeten vervangen voor beheerverbindingen. Telnet is een ouder protocol dat onbeveiligde gewone tekstoverdracht gebruikt van zowel de aanmeldingsverificatie (gebruikersnaam en wachtwoord) als de gegevens die worden verzonden tussen de communicerende apparaten. SSH biedt beveiliging voor externe verbindingen door sterke codering te bieden wanneer een apparaat authenticeert (gebruikersnaam en wachtwoord) en om gegevens te verzenden tussen de communicerende apparaten. SSH gebruikt TCP-poort 22. Telnet gebruikt TCP-poort 23.
+Secure Shell (SSH) is een protocol dat zorgt voor een veilige (versleutelde) beheerverbinding met een apparaat op afstand. SSH zou Telnet moeten vervangen voor beheerverbindingen. Telnet is een ouder protocol dat onbeveiligde gewone tekstoverdracht gebruikt. SSH gebruikt TCP-poort 22. Telnet gebruikt TCP-poort 23.
 Secure Copy (SCP) brengt veilig computerbestanden over tussen twee externe systemen. SCP gebruikt SSH voor gegevensoverdracht (inclusief het authenticatie-element), dus SCP zorgt voor de authenticiteit en vertrouwelijkheid van de gegevens die onderweg zijn.
 
 ### 2. Administratieve maatregelen
 
 #### Poorten en services beveiligen
 
-Cybercriminelen maken misbruik van de services die op een systeem worden uitgevoerd, omdat ze weten dat de meeste apparaten meer services of programma's uitvoeren dan ze nodig hebben.
-Een eenvoudige methode die veel beheerders gebruiken om het netwerk te beveiligen tegen ongeautoriseerde toegang, is door alle ongebruikte poorten op een switch uit te schakelen. Daarbij moet een beheerder moet elke service bekijken om de noodzaak ervan te verifiëren en het risico ervan te evalueren. Verwijder alle onnodige services.
+om het netwerk te beveiligen tegen ongeautoriseerde toegang, is alle ongebruikte poorten op een switch uit te schakelen. Daarnaast verwijder alle onnodige services.
 
 #### Bevoorrechte accounts
-Cybercriminelen gebruiken bevoorrechte accounts omdat ze de krachtigste accounts in de organisatie zijn. Privileged accounts hebben de inloggegevens om toegang tot systemen te krijgen en ze bieden een verhoogde, onbeperkte toegang.
+Cybercriminelen gebruiken maken van bevoorrechte accounts omdat ze deze privileged accounts ze 'onbeperkte toegang' hebben
 
 De organisatie moet de volgende aanbevolen procedures volgen voor het beveiligen van vertrouwelijke accounts:
 
 - Identificeer en verminder het aantal geprivilegieerde accounts
-- Dwing het principe van het minste privilege af
 - Stel een proces in voor het herroepen van rechten wanneer werknemers hun baan verlaten of van baan veranderen
 - Elimineer gedeelde accounts met wachtwoorden die niet verlopen
 - Veilige wachtwoordopslag
@@ -204,12 +199,10 @@ De organisatie moet de volgende aanbevolen procedures volgen voor het beveiligen
 - Implementeer een proces om ingesloten wachtwoorden voor scripts en serviceaccounts te wijzigen
 - Log alle gebruikersactiviteiten in
 - Genereer meldingen voor ongewoon gedrag
-- Schakel inactieve bevoorrechte accounts uit
 - Gebruik multi-factor authenticatie voor alle administratieve toegang
 - Implementeer een gateway tussen de eindgebruiker en gevoelige assets om de netwerkblootstelling aan malware te beperken
-- Het vergrendelen van geprivilegieerde accounts is essentieel voor de beveiliging van de organisatie. Het beveiligen van deze accounts moet een continu proces zijn. Een organisatie moet dit proces evalueren om de vereiste aanpassingen aan te brengen om de beveiliging te verbeteren.
 
-Soorten van Bevoorrechte accounts moeten nog worden aangevult
+Bevoorrechte accounts zie 7.2.2.2
 
 #### Logboeken en waarschuwingen inschakelen
 
@@ -228,14 +221,12 @@ Organisaties gebruiken op het netwerk of op het systeem gebaseerde beveiligingss
 
 #### Power
 
-Een continue toevoer van elektrische stroom is van cruciaal belang in de enorme faciliteiten voor server- en gegevensopslag van vandaag. Hier zijn enkele algemene regels voor het bouwen van effectieve elektrische voedingssystemen:
+Hier zijn enkele algemene regels voor het bouwen van effectieve elektrische voedingssystemen:
 
 - Datacenters moeten op een andere stroomvoorziening van de rest van het gebouw staan
-Redundante voedingsbronnen: twee of meer feeds afkomstig van twee of meer elektrische onderstations
 - Vermogen conditionering
 - Back-upvermogenssystemen zijn vaak vereist
 - UPS moet beschikbaar zijn om systemen fraai af te sluiten
-Een organisatie moet zichzelf beschermen tegen verschillende problemen bij het ontwerpen van haar elektrische voedingssystemen.
 
 ##### Power Excess
 
@@ -255,14 +246,12 @@ Inschakelstroom: initiële stroomstoot
 
 ####  Verwarming, ventilatie en airconditioning
 
-HVAC-systemen (Heating, Ventilation, and Air Conditioning ) regelen de omgeving (temperatuur, vochtigheid, luchtstroom en luchtfiltering) en moeten worden gepland en gebruikt in combinatie met andere datacentercomponenten, zoals computerhardware, bekabeling, gegevensopslag, brandbeveiliging, fysieke beveiligingssystemen en stroomvoorziening.
-Commerciële HVAC-systemen en andere gebouwbeheersystemen maken nu verbinding met internet voor bewaking en besturing op afstand. Recente gebeurtenissen hebben aangetoond dat dergelijke systemen (vaak "slimme systemen" genoemd) ook grote veiligheidsimplicaties met zich meebrengen.
-Een van de risico's verbonden aan slimme systemen is dat de personen die toegang hebben tot en het systeem beheren werken voor een aannemer of een externe leverancier
+HVAC-systemen (Heating, Ventilation, and Air Conditioning ) regelen de omgeving (temperatuur, vochtigheid, luchtstroom en luchtfiltering).
+Commerciële HVAC-systemen en andere gebouwbeheersystemen maken nu verbinding met internet voor bewaking en besturing op afstand (slimme systemen). Een van de risico's is dat de personen die toegang hebben tot en het systeem beheren werken voor een aannemer of een externe leverancier
 
 #### Hardware Monitoring
 
-Hardware-monitoring is vaak te vinden in grote server farms. Een server farm is een faciliteit die honderden of duizenden servers huisvest voor bedrijven. Google heeft over de hele wereld veel server farms om optimale services te bieden.
-Hardwarebewakingssystemen worden gebruikt om de gezondheid van deze systemen te bewaken en om downtime van servers en applicaties te minimaliseren. Moderne hardwarebewakingssystemen maken gebruik van USB- en netwerkpoorten om de conditie van de CPU-temperatuur, voedingsstatus, ventilatorsnelheid en temperatuur, geheugenstatus, schijfruimte en netwerkkaartstatus te verzenden.
+Hardware-monitoring is vaak te vinden in grote server farms. Een server farm is een faciliteit die honderden of duizenden servers huisvest voor bedrijven. Moderne hardwarebewakingssystemen maken gebruik van USB- en netwerkpoorten om de conditie van de CPU-temperatuur, voedingsstatus, ventilatorsnelheid en temperatuur, geheugenstatus, schijfruimte en netwerkkaartstatus te verzenden.
 
 ### 5. Netwerk verharding
 
@@ -279,31 +268,26 @@ Beide entiteiten gebruiken een hiërarchische laagstructuur om gebeurtenissen af
 Laag 1 eerste behandelt alle gebeurtenissen en escaleert elke gebeurtenis die niet kan worden verwerkt naar de tweede laag. Laag 2 beoordeelt het evenement in detail om het op te lossen.
 Laag 3 zijn de deskundigen en lossen problemen op die laag 2 niet kon oplossen
 
-Dit testen gebuerd door simulatie-oefening
+Dit testen gebuerd door een simulatie-oefening
 
 ##### Switches, Routers, and Network Appliances
 
 - verander standaart wachtwoord
 
 ###### Switches
-####### gevaren
-- ARP
-- STP
-####### oplossingen
--poort beveiliging (aantal geldige MAC-adressen dat is toegestaan op een poort)
+
+- poort beveiliging (aantal geldige MAC-adressen dat is toegestaan op een poort)
 
 ###### VLAN's
-####### gevaren( valt buiten de curus) 
-####### oplossingen
-- regelmatige systeempatching en updates van de IOS.
+- regelmatige systeempatching en updates van de IOS instaleren.
 
 ###### Firewalls
 
-Een firewall filtert ongeoorloofd of mogelijk gevaarlijk verkeer van het netwerk. Een eenvoudige firewall biedt basisfuncties voor verkeersfiltering met behulp van toegangscontrolelijsten (ACL's)
+als extra hulp toegangscontrolelijsten (ACL's) invoeren
 
 ###### Routers
 
-Fysieke beveiliging, geavanceerde configuratie-instellingen, gebruik van veilige routeringsprotocollen met authenticatie en gepaste systeemupdates en patches indien nodig.
+- gebruik van veilige routeringsprotocollen met authenticatie en gepaste systeemupdates en patches indien nodig.
 
 ###### Wireless and Mobile Devices
 
@@ -325,6 +309,7 @@ De beste manier om een draadloos netwerk te beveiligen, is door gebruik te maken
 
 ###### NTP
 De juiste tijd hebben binnen netwerken is belangrijk. Correcte tijdstempels volgen nauwkeurig netwerkgebeurtenissen zoals beveiligingsovertredingen. Bovendien is kloksynchronisatie van cruciaal belang voor de juiste interpretatie van gebeurtenissen in syslog-gegevensbestanden en voor digitale certificaten.
+
 Network Time Protocol (NTP) is een protocol dat de klokken van computersystemen synchroniseert via gegevensnetwerken. Met NTP kunnen netwerkapparaten hun tijdsinstellingen synchroniseren met een NTP-server.
 Cybercriminelen vallen timeservers aan om beveiligde communicatie te onderbreken die afhankelijk is van digitale certificaten en om aanvalsinformatie te verbergen, zoals nauwkeurige tijdstempels.
 
@@ -340,14 +325,12 @@ Voer de volgende tegenmaatregelen uit om VoIP te beveiligen:
 
 - Versleutel stemberichtpakketten om te beschermen tegen afluisteren.
 - Gebruik SSH om gateways en switches te beveiligen.
-- Wijzig alle standaardwachtwoorden.
 - Gebruik een inbraakdetectiesysteem om aanvallen zoals ARP-vergiftiging te detecteren.
-- Gebruik sterke authenticatie om spoofing bij registratie te beperken (cybercriminelen leiden alle inkomende oproepen door naar het slachtoffer), proxy imiteren (bedriegt het slachtoffer in communicatie met een frauduleuze proxy die is opgezet door de cybercriminelen) en roep kaping (de oproep wordt onderschept en omgeleid naar een ander pad voordat de bestemming wordt bereikt).
 - Implementeer firewalls die VoIP herkennen om streams te monitoren en abnormale signalen te filteren.
 
 #### Netwerk- en IoT-sensoren
 
-Bedrijven gebruiken deze apparaten om inventaris, voertuigen en personeel bij te houden. IoT-apparaten bevatten geospatiale sensoren. Een gebruiker kan omgevingsvariabelen zoals temperatuur, vochtigheid en belichting globaal lokaliseren, bewaken en besturen. De IoT-industrie vormt een enorme uitdaging voor professionals in de informatiebeveiliging omdat veel IoT-apparaten gevoelige informatie vastleggen en verzenden. Cybercriminelen richten zich op deze systemen om gegevens te onderscheppen of om de prestaties en beschikbaarheid te beïnvloeden.
+Een gebruiker kan omgevingsvariabelen zoals temperatuur, vochtigheid en belichting globaal lokaliseren, bewaken en besturen. Cybercriminelen richten zich op deze systemen om gegevens te onderscheppen of om de prestaties en beschikbaarheid te beïnvloeden.
 
 ### Physical Access Control
 
