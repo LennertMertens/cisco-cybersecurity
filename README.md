@@ -16,7 +16,7 @@ DEADLINE: 28/11
 | H3        | Thomas  | []    |
 | H4        | Sam     | []    |
 | H5        | Cedric  | [x]    |
-| H6        | Jens    | []    |
+| H6        | Jens    | [x]    |
 | H7        | Robin   | [x]    |
 | H8        | ?       | []    |
 
