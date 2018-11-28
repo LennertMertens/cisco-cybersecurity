@@ -14,7 +14,7 @@ DEADLINE: 28/11
 | H1        | Kwinten | []    |
 | H2        | Lennert | [x]   |
 | H3        | Thomas  | []    |
-| H4        | Sam     | []    |
+| H4        | Sam     | [x]    |
 | H5        | Cedric  | [x]    |
 | H6        | Jens    | [x]    |
 | H7        | Robin   | [x]    |
