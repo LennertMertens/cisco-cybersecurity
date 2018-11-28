@@ -1,7 +1,7 @@
 # Chapter 2: The Cybersecurity Cube
 ## 2.1 The three Dimensions of the Cybersecurity Cube
 ### 2.1.1 The Principles of Security (Introduction)
-#### Firt dimension
+#### First dimension
 - Goals to protect cyberspace
   
 - Confidentiality
